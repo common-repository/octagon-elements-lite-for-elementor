@@ -1,0 +1,236 @@
+/*!
+ * Octagon Elements for Elementor Navigation Menu LESS v1.0
+ *
+ * 
+ * Copyright (c) octagon web studio
+ *
+ */
+
+/* ---------------------------------------------------------------------------
+ * Navigation Menu
+------------------------------------------------------------------------------ */
+
+/* General ------------------------------------------------------------------- */
+
+.main-menu ul {
+    margin: 0;
+    float: left;
+    list-style: none;
+}
+
+.main-menu ul li {
+    float: left;
+}
+
+.main-menu li .menu-link,
+.has-core-not-active .main-menu li a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #100d0c;
+    padding: 0 35px;
+    text-decoration: none;
+    position: relative;
+}
+
+.menu-item .batch {
+    display: none;
+}
+
+.main-menu .menu-item .batch {
+    font-size: 8px;
+    font-weight: 600;
+    color: #fff;
+    background: #ff4246;
+    text-transform: uppercase;
+    line-height: 21px;
+    white-space: nowrap;
+    padding: 0 7px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 4px;
+    position: absolute;
+    top: -20px;
+}
+
+.main-menu ul .sub-menu .menu-item .batch {
+    font-size: 11px;
+    color: #ff4246;
+    background: none;
+    top: -10px;
+}
+
+/* Sub Menu ------------------------------------------------------------------ */
+
+.main-menu > ul > li:not(.megamenu) {
+    position: relative;
+}
+
+.main-menu ul li {
+    text-align: left;
+}
+
+.main-menu > ul > li > .menu-link {
+    text-transform: uppercase;
+}
+
+.main-menu .sub-menu-holder {
+    position: relative;
+}
+
+.main-menu ul.sub-menu {
+    width: 255px;
+    padding: 30px 0;
+    line-height: 1;
+    border: 1px solid rgba( 0, 0, 0, 0.04 );
+    border-top: 0;
+    box-shadow: 0 1px 1px rgba( 0, 0, 0, 0.04 );
+    z-index: 9;
+    position: absolute;
+    left: 0;
+}
+
+.main-menu .sub-menu-right ul.sub-menu {
+    left: auto;
+    right: 0;
+}
+
+.main-menu li > .sub-menu {
+    background: #fff;
+    display: none;
+}
+
+.main-menu li:hover > .sub-menu {
+    display: block;
+}
+
+.main-menu .sub-menu ul.sub-menu {
+    top: 0px;
+    left: 100%;
+}
+
+.main-menu .sub-menu-right .sub-menu ul.sub-menu {
+    top: 0px;
+    left: auto;
+    right: 100%;
+}
+
+.main-menu .sub-menu li {
+    line-height: 1;
+    padding: 0 0 10px 0;
+    float: none;    
+    display: block;
+    position: relative;
+}
+
+.main-menu .sub-menu li:last-child {
+    padding: 0;
+}
+
+.main-menu .sub-menu li:last-child {
+    padding: 0;
+}
+
+.main-menu .sub-menu li .menu-link,
+.has-core-not-active .main-menu .sub-menu li a {
+    font-size: 15px;
+    font-weight: 400;
+    color: #100d0c;
+    line-height: 1.6;
+    padding: 0 35px;
+    display: block;
+}
+
+.main-menu ul li .sub-menu-trigger {
+    display: none;
+}
+
+.main-menu .sub-menu .hide-sub-menu-title > a,
+.main-menu .sub-menu .hide-sub-menu-title > span {
+    display: none;
+}
+
+
+/* Mega Menu ----------------------------------------------------------------- */
+
+.main-menu .megamenu ul.sub-menu {
+    padding: 30px 60px 0 60px;
+    width: 100%;
+}
+
+.main-menu .megamenu.megamenu-2-column ul.sub-menu,
+.main-menu .megamenu.megamenu-3-column ul.sub-menu {
+    padding: 30px 40px 0 40px;
+    width: 550px;
+}
+
+.main-menu .megamenu.megamenu-3-column ul.sub-menu {
+    width: 800px;
+}
+
+.main-menu .megamenu > ul.sub-menu > li {
+    margin: 0 0 30px 0;
+    float: left;
+}
+
+.main-menu .megamenu ul.sub-menu li > a,
+.main-menu .megamenu ul.sub-menu li > span,
+.main-menu .megamenu ul.sub-menu li.act-as-title { 
+    padding: 0;
+}
+
+.main-menu .megamenu > ul.sub-menu > li > .menu-link,
+.main-menu .megamenu > ul.sub-menu .widget-title,
+.main-menu .megamenu > ul.sub-menu .act-as-title > .menu-link { 
+    font-size: 15px;
+    font-weight: 600;
+    color: #100d0c;
+    text-transform: uppercase;
+    line-height: 2;
+    letter-spacing: 0.5px;
+    margin: 0 0 15px 0;
+}
+
+.main-menu .megamenu > ul.sub-menu .act-as-title > .menu-link {
+    margin: 25px 0 15px 0;
+}
+
+.main-menu .megamenu.megamenu-2-column > ul.sub-menu > li {
+    width: 50%;
+}
+
+.main-menu .megamenu.megamenu-3-column > ul.sub-menu > li {
+    width: 33.33333333%;
+}
+
+.main-menu .megamenu.megamenu-4-column > ul.sub-menu > li {
+    width: 25%;
+}
+
+.main-menu .megamenu.megamenu-5-column > ul.sub-menu > li {
+    width: 20%;
+}
+
+.main-menu .megamenu.megamenu-6-column > ul.sub-menu > li {
+    width: 16.66666667%;
+}
+
+.main-menu .megamenu.megamenu-2-column > ul.sub-menu > li:nth-child(2n+1),
+.main-menu .megamenu.megamenu-3-column > ul.sub-menu > li:nth-child(3n+1),
+.main-menu .megamenu.megamenu-4-column > ul.sub-menu > li:nth-child(4n+1),
+.main-menu .megamenu.megamenu-5-column > ul.sub-menu > li:nth-child(5n+1),
+.main-menu .megamenu.megamenu-6-column > ul.sub-menu > li:nth-child(6n+1) {
+    clear: both;
+}
+
+.main-menu .megamenu ul.sub-menu li ul.sub-menu { 
+    background: none;
+    padding: 0;      
+    display: block;
+    border: none;
+    box-shadow: none;
+    position: static;
+}
+
+.main-menu .megamenu > ul.sub-menu li > ul.sub-menu { 
+    width: 100%;
+}

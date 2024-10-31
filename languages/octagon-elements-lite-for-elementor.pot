@@ -1,0 +1,2648 @@
+# Copyright (C) 2019 Octagon Web Studio
+# This file is distributed under the This WordPress theme is comprised of two parts: (1) The PHP code and integrated HTML are licensed under the GPL license as is WordPress itself.  You will find a copy of the license text in the same directory as this text file. Or you can read it here: http://wordpress.org/about/gpl/ (2) All other parts of the theme including, but not limited to the CSS code, images, and design are licensed according to the license purchased. Read about licensing details here: http://themeforest.net/licenses/regular_extended.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Octagon Elements for Elementor\n"
+"POT-Creation-Date: 2020-05-23 04:00+0530\n"
+"PO-Revision-Date: 2018-02-12 16:30+0530\n"
+"Last-Translator: Octagon <octagonwebstudio@gmail.com>\n"
+"Language-Team: Octagon Web Studio <octagonwebstudio@gmail.com>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-KeywordsList: _n;_e;_x;__;esc_html__;esc_html_e;esc_html_x;esc_attr__;"
+"esc_attr_e;esc_attr_x\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: builder/class-builder.php:38
+msgid "Octagon Elements"
+msgstr ""
+
+#: builder/class-builder.php:80
+msgid "Background Type"
+msgstr ""
+
+#: builder/class-builder.php:83
+msgid "Not Set"
+msgstr ""
+
+#: builder/class-builder.php:84
+msgid "Light"
+msgstr ""
+
+#: builder/class-builder.php:85
+msgid "Dark"
+msgstr ""
+
+#: core/class-admin-page.php:41 core/views/html-icon-manager.php:78
+#: modules/advance-button.php:209 modules/content-type-list.php:435
+#: modules/content-type-slider.php:476 modules/content-type.php:512
+#: modules/icon-box.php:392 modules/social-icons.php:135 modules/social-icons.php:165
+#: views/html-modules.php:96
+msgid "Yes"
+msgstr ""
+
+#: core/class-admin-page.php:41 core/views/html-icon-manager.php:79
+#: modules/advance-button.php:210 modules/content-type-list.php:436
+#: modules/content-type-slider.php:477 modules/content-type.php:513
+#: modules/icon-box.php:393 modules/social-icons.php:136 modules/social-icons.php:166
+#: views/html-modules.php:97
+msgid "No"
+msgstr ""
+
+#: core/class-admin-page.php:43 core/class-admin-page.php:46 core/class-admin-page.php:54
+#: core/class-admin-page.php:55 core/template-builder/class-template-builder.php:162
+#: includes/list-tables/class-admin-list-table-templates.php:160
+msgid "Active"
+msgstr ""
+
+#: core/class-admin-page.php:43 core/class-admin-page.php:46 core/class-admin-page.php:54
+#: core/class-admin-page.php:55
+msgid "Not Active"
+msgstr ""
+
+#: core/class-admin-page.php:73 core/class-admin-page.php:128
+#: core/class-admin-page.php:153 core/class-admin-page.php:178
+msgid "<span class=\"batch batch-orange\">Good</span>"
+msgstr ""
+
+#: core/class-admin-page.php:79 core/class-admin-page.php:109
+#: core/class-admin-page.php:134 core/class-admin-page.php:159
+#: core/class-admin-page.php:184
+msgid "<span class=\"batch batch-green\">Better</span>"
+msgstr ""
+
+#: core/class-admin-page.php:85 core/views/html-status.php:57
+msgid "Memory Limit:"
+msgstr ""
+
+#: core/class-admin-page.php:87 core/class-admin-page.php:100
+#: core/class-admin-page.php:119 core/class-admin-page.php:144
+#: core/class-admin-page.php:169
+msgid "<span class=\"batch batch-red\">Critical</span>"
+msgstr ""
+
+#: core/class-admin-page.php:88
+msgid ""
+"Minimum <strong>128 MB</strong> is required, <strong>256 MB</strong> is recommended."
+msgstr ""
+
+#: core/class-admin-page.php:98 core/views/html-status.php:63
+msgid "PHP Version:"
+msgstr ""
+
+#: core/class-admin-page.php:101
+#, php-format
+msgid ""
+"<span class=\"list-info\">%s - We recommend using PHP version 7.0 or above for greater "
+"performance and security.</span>"
+msgstr ""
+
+#: core/class-admin-page.php:117 core/views/html-status.php:69
+msgid "Post Max Size:"
+msgstr ""
+
+#: core/class-admin-page.php:120
+msgid ""
+"<span class=\"list-info\">Minimum <strong>128 MB</strong> is required, <strong>256 MB</"
+"strong> is recommended.</span>"
+msgstr ""
+
+#: core/class-admin-page.php:142 core/views/html-status.php:75
+msgid "Time Limit:"
+msgstr ""
+
+#: core/class-admin-page.php:145 core/class-admin-page.php:170
+#, php-format
+msgid "<span class=\"list-info\">%s - is not enough to run this theme properly.</span>"
+msgstr ""
+
+#: core/class-admin-page.php:154
+#, php-format
+msgid ""
+"<span class=\"list-info\">%s - is OK, But <strong>180</strong> is recommended.</span>"
+msgstr ""
+
+#: core/class-admin-page.php:167 core/views/html-status.php:81
+msgid "Max Input Vars:"
+msgstr ""
+
+#: core/class-admin-page.php:179
+#, php-format
+msgid ""
+"<span class=\"list-info\">%s - is OK, But <strong>10000</strong> is recommended.</span>"
+msgstr ""
+
+#: core/class-admin-page.php:339
+msgid "Octagon"
+msgstr ""
+
+#: core/class-admin-page.php:341
+msgid "Welcome"
+msgstr ""
+
+#: core/class-admin-page.php:342
+msgid "Status"
+msgstr ""
+
+#: core/class-admin-page.php:343
+msgid "Sidebar"
+msgstr ""
+
+#: core/class-metabox.php:149 core/class-metabox.php:746
+#: includes/class-widget-base.php:187
+#: includes/list-tables/class-admin-list-table-member.php:42
+#: includes/list-tables/class-admin-list-table-post.php:42
+#: includes/list-tables/class-admin-list-table-templates.php:44
+#: includes/list-tables/class-admin-list-table-testimonial.php:43 modules/cards.php:154
+#: modules/cards.php:440 modules/content-type-list.php:570
+#: modules/content-type-slider.php:782 modules/content-type.php:702
+#: modules/gradient-text.php:112 modules/gradient-text.php:168 modules/icon-box.php:198
+#: modules/icon-box.php:576 modules/info-icons.php:181 modules/info-icons.php:463
+#: modules/products-list.php:305 modules/social-icons.php:176 modules/team-slider.php:476
+#: modules/timeline.php:143 modules/timeline.php:326
+msgid "Title"
+msgstr ""
+
+#: core/class-metabox.php:402 core/class-metabox.php:632 core/class-taxonomy-image.php:56
+#: core/class-taxonomy-image.php:87 core/megamenu/class-walker-nav-menu-edit.php:265
+msgid "Upload"
+msgstr ""
+
+#: core/class-metabox.php:640
+msgid "No Repeat"
+msgstr ""
+
+#: core/class-metabox.php:641
+msgid "Repeat"
+msgstr ""
+
+#: core/class-metabox.php:642
+msgid "Repeat X"
+msgstr ""
+
+#: core/class-metabox.php:643
+msgid "Repeat Y"
+msgstr ""
+
+#: core/class-metabox.php:655
+msgid "Left Top"
+msgstr ""
+
+#: core/class-metabox.php:656
+msgid "Left Center"
+msgstr ""
+
+#: core/class-metabox.php:657
+msgid "Left Bottom"
+msgstr ""
+
+#: core/class-metabox.php:658
+msgid "Right Top"
+msgstr ""
+
+#: core/class-metabox.php:659
+msgid "Right Center"
+msgstr ""
+
+#: core/class-metabox.php:660
+msgid "Right Bottom"
+msgstr ""
+
+#: core/class-metabox.php:661
+msgid "Center Top"
+msgstr ""
+
+#: core/class-metabox.php:662
+msgid "Center Center"
+msgstr ""
+
+#: core/class-metabox.php:663
+msgid "Center Bottom"
+msgstr ""
+
+#: core/class-metabox.php:675
+msgid "Auto"
+msgstr ""
+
+#: core/class-metabox.php:676
+msgid "Cover"
+msgstr ""
+
+#: core/class-metabox.php:677
+msgid "Contain"
+msgstr ""
+
+#: core/class-metabox.php:689
+msgid "Scroll"
+msgstr ""
+
+#: core/class-metabox.php:690
+msgid "Fixed"
+msgstr ""
+
+#: core/class-metabox.php:729 core/megamenu/class-walker-nav-menu-edit.php:310
+msgid "Choose Icon"
+msgstr ""
+
+#: core/class-metabox.php:747
+msgid "Some description"
+msgstr ""
+
+#: core/class-metabox.php:757
+msgid "Expand"
+msgstr ""
+
+#: core/class-metabox.php:758
+msgid "Add"
+msgstr ""
+
+#: core/class-post-row-actions.php:38 core/class-post-row-actions.php:60
+msgid "Duplicate"
+msgstr ""
+
+#: core/class-post-type.php:42
+msgid "Add New"
+msgstr ""
+
+#: core/class-post-type.php:43 core/class-post-type.php:119
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: core/class-post-type.php:44 core/class-post-type.php:117
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: core/class-post-type.php:45
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: core/class-post-type.php:46
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: core/class-post-type.php:47 core/class-post-type.php:112
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: core/class-post-type.php:48
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: core/class-post-type.php:49
+#, php-format
+msgid "No %s found in trash"
+msgstr ""
+
+#: core/class-post-type.php:50
+#, php-format
+msgid "Parent %s"
+msgstr ""
+
+#: core/class-post-type.php:51 core/class-post-type.php:114
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: core/class-post-type.php:62
+msgid "Description."
+msgstr ""
+
+#: core/class-post-type.php:113
+#, php-format
+msgid "Popular %s"
+msgstr ""
+
+#: core/class-post-type.php:118
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: core/class-post-type.php:120
+#, php-format
+msgid "New %s Name"
+msgstr ""
+
+#: core/class-post-type.php:121
+#, php-format
+msgid "Separate %s with commas"
+msgstr ""
+
+#: core/class-post-type.php:122
+#, php-format
+msgid "Add or remove %s"
+msgstr ""
+
+#: core/class-post-type.php:123
+#, php-format
+msgid "Choose from the most used %s"
+msgstr ""
+
+#: core/class-post-type.php:124
+#, php-format
+msgid "No %s found."
+msgstr ""
+
+#: core/class-sidebar.php:46
+msgid "Add widgets here."
+msgstr ""
+
+#: core/class-sidebar.php:133 core/megamenu/class-walker-nav-menu-edit.php:363
+#: core/views/html-sidebar.php:103
+msgid "Remove"
+msgstr ""
+
+#: core/class-sidebar.php:143 core/views/html-sidebar.php:113
+msgid "No custom sidebar are available."
+msgstr ""
+
+#: core/class-taxonomy-image.php:82
+msgid "Taxonomy Image"
+msgstr ""
+
+#: core/helper-functions.php:447
+msgid "Placeholder Image"
+msgstr ""
+
+#: core/helper-functions.php:675
+msgid "Choose a Page"
+msgstr ""
+
+#: core/icon-manager/class-icon-manager.php:49
+msgid "Icon Manager"
+msgstr ""
+
+#: core/icon-manager/class-icon-manager.php:108
+msgid "Octagon - Basic"
+msgstr ""
+
+#: core/icon-manager/class-icon-manager.php:120
+msgid "Octagon - Social"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:101
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:105
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:114
+msgid "sub item"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:129
+msgid "Move up"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:142
+msgid "Move down"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:146
+msgid "Edit menu item"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:146
+msgid "Edit"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:155
+msgid "URL"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:162
+msgid "Navigation Label"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:168
+msgid "Title Attribute"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:175
+msgid "Open link in a new tab"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:180
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:186
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:192 modules/icon-box.php:230
+#: modules/icon-box.php:633 modules/timeline.php:152 modules/timeline.php:383
+msgid "Description"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:194
+msgid "The description will be displayed in the menu if the current theme supports it."
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:220
+msgid "Disable Link"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:226
+msgid "Sub Menu Align"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:228 modules/advance-button.php:195
+#: modules/advance-button.php:347 modules/advance-counter.php:199
+#: modules/content-type-list.php:420 modules/content-type-slider.php:461
+#: modules/content-type.php:497 modules/icon-box.php:134 modules/icon-box.php:377
+#: modules/info-icons.php:157 modules/navigation-menu.php:128 modules/social-icons.php:348
+msgid "Left"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:229 modules/advance-button.php:196
+#: modules/advance-button.php:355 modules/advance-counter.php:207
+#: modules/content-type-list.php:421 modules/content-type-slider.php:462
+#: modules/content-type.php:498 modules/icon-box.php:135 modules/icon-box.php:378
+#: modules/info-icons.php:158 modules/navigation-menu.php:132 modules/social-icons.php:356
+msgid "Right"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:237
+msgid "Act as Megamenu"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:243 modules/cards.php:118
+#: modules/content-type.php:150 modules/info-icons.php:118
+msgid "Columns"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:245
+msgid "2 Columns"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:246
+msgid "3 Columns"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:247
+msgid "4 Columns"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:248
+msgid "5 Columns"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:249
+msgid "6 Columns"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:260
+msgid "Menu Background"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:272
+msgid "Hide Sub Menu Title"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:279
+msgid "Act as Title( Only works on Megamenu )"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:287
+msgid "Widget Area"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:290
+msgid "Choose Widget Area"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:302 includes/init-meta-fields.php:119
+#: modules/advance-button.php:183 modules/advance-button.php:499
+#: modules/advance-counter.php:144 modules/advance-counter.php:321 modules/cards.php:164
+#: modules/cards.php:338 modules/content-type-list.php:405
+#: modules/content-type-slider.php:446 modules/content-type.php:482
+#: modules/icon-box.php:148 modules/icon-box.php:157 modules/icon-box.php:362
+#: modules/icon-box.php:470 modules/info-icons.php:195 modules/info-icons.php:204
+#: modules/info-icons.php:357 modules/social-icons.php:186 modules/video-popup.php:148
+msgid "Icon"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:317
+msgid "Batch"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:324
+msgid "Batch Background Color"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:331
+msgid "Batch Color"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:339
+msgid "Move"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:340
+msgid "Up one"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:341
+msgid "Down one"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:344
+msgid "To the top"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:350
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: core/megamenu/class-walker-nav-menu-edit.php:364
+msgid "Cancel"
+msgstr ""
+
+#: core/template-builder/class-template-builder.php:55
+#: core/template-builder/class-template-builder.php:58
+msgid "My Templates"
+msgstr ""
+
+#: core/template-builder/class-template-builder.php:56
+msgid "Template"
+msgstr ""
+
+#: core/template-builder/class-template-builder.php:87
+#: includes/list-tables/class-admin-list-table-templates.php:45 modules/icon-box.php:144
+#: modules/info-icons.php:191
+msgid "Type"
+msgstr ""
+
+#: core/template-builder/class-template-builder.php:88
+msgid "Choose type."
+msgstr ""
+
+#: core/template-builder/class-template-builder.php:92
+#: includes/list-tables/class-admin-list-table-templates.php:135
+msgid "Header"
+msgstr ""
+
+#: core/template-builder/class-template-builder.php:93
+#: includes/list-tables/class-admin-list-table-templates.php:136
+msgid "Footer"
+msgstr ""
+
+#: core/template-builder/class-template-builder.php:99
+#: includes/list-tables/class-admin-list-table-templates.php:143
+msgid "Entire Site"
+msgstr ""
+
+#: core/template-builder/class-template-builder.php:100
+#: includes/list-tables/class-admin-list-table-templates.php:144
+msgid "Front Page"
+msgstr ""
+
+#: core/template-builder/class-template-builder.php:101
+#: includes/list-tables/class-admin-list-table-templates.php:145
+msgid "Home"
+msgstr ""
+
+#: core/template-builder/class-template-builder.php:102
+#: includes/list-tables/class-admin-list-table-templates.php:146
+msgid "Search"
+msgstr ""
+
+#: core/template-builder/class-template-builder.php:103
+#: includes/list-tables/class-admin-list-table-templates.php:147
+msgid "All Pages"
+msgstr ""
+
+#: core/template-builder/class-template-builder.php:104
+#: includes/list-tables/class-admin-list-table-templates.php:148
+msgid "All Singular Posts"
+msgstr ""
+
+#: core/template-builder/class-template-builder.php:105
+#: includes/list-tables/class-admin-list-table-templates.php:149
+msgid "Specific Singular Posts"
+msgstr ""
+
+#: core/template-builder/class-template-builder.php:106
+#: includes/list-tables/class-admin-list-table-templates.php:150
+msgid "Singular ID"
+msgstr ""
+
+#: core/template-builder/class-template-builder.php:107
+#: includes/list-tables/class-admin-list-table-templates.php:151
+msgid "Error 404"
+msgstr ""
+
+#: core/template-builder/class-template-builder.php:108
+#: includes/list-tables/class-admin-list-table-templates.php:152
+msgid "All Archives"
+msgstr ""
+
+#: core/template-builder/class-template-builder.php:109
+#: includes/list-tables/class-admin-list-table-templates.php:153
+msgid "Custom Archives"
+msgstr ""
+
+#: core/template-builder/class-template-builder.php:114
+#: includes/list-tables/class-admin-list-table-templates.php:46
+msgid "Condition"
+msgstr ""
+
+#: core/template-builder/class-template-builder.php:115
+msgid "Choose condition."
+msgstr ""
+
+#: core/template-builder/class-template-builder.php:124
+msgid "Condition Singular"
+msgstr ""
+
+#: core/template-builder/class-template-builder.php:125
+msgid "Choose a singular condition."
+msgstr ""
+
+#: core/template-builder/class-template-builder.php:135
+msgid "Condition Custom Archives"
+msgstr ""
+
+#: core/template-builder/class-template-builder.php:136
+msgid "Choose a specific archives."
+msgstr ""
+
+#: core/template-builder/class-template-builder.php:146
+msgid "Singular Post ID"
+msgstr ""
+
+#: core/template-builder/class-template-builder.php:147
+msgid "Choose a specific post ID's."
+msgstr ""
+
+#: core/template-builder/class-template-builder.php:157
+#: includes/list-tables/class-admin-list-table-templates.php:47
+msgid "State"
+msgstr ""
+
+#: core/template-builder/class-template-builder.php:158
+msgid "Do you want active this?."
+msgstr ""
+
+#: core/template-builder/class-template-builder.php:163
+msgid "Inactive"
+msgstr ""
+
+#: core/template-builder/class-template-builder.php:168 includes/init-meta-fields.php:179
+#: includes/init-meta-fields.php:191 includes/init-meta-fields.php:203
+#: modules/initialize-elements.php:115 views/html-settings.php:64
+msgid "General"
+msgstr ""
+
+#: core/template-builder/class-template-builder.php:172
+msgid "Conditions"
+msgstr ""
+
+#: core/views/html-header.php:19
+#, php-format
+msgid "V %s"
+msgstr ""
+
+#: core/views/html-header.php:23
+msgid "Documentation"
+msgstr ""
+
+#: core/views/html-header.php:24
+msgid "Support Forum"
+msgstr ""
+
+#: core/views/html-header.php:27
+msgid ""
+"Octagon Elements for Elementor is a unique shortcode elements addon for Elementor Page "
+"Builder. For any assistance, Please contact us via our support forum."
+msgstr ""
+
+#: core/views/html-icon-manager.php:32
+msgid "Available Icons"
+msgstr ""
+
+#: core/views/html-icon-manager.php:33
+msgid "Pick the icon set which are going to use on website."
+msgstr ""
+
+#: core/views/html-icon-manager.php:95
+msgid "Save Icon"
+msgstr ""
+
+#: core/views/html-icon-manager.php:113
+msgid "Custom Icons"
+msgstr ""
+
+#: core/views/html-icon-manager.php:114
+msgid ""
+"Don't rely on the pre build icons everyone else is using! Differentiate your website "
+"and your style with custom icons."
+msgstr ""
+
+#: core/views/html-icon-manager.php:117 core/views/html-status.php:107
+msgid "Learn More"
+msgstr ""
+
+#: core/views/html-icon-manager.php:124
+msgid "Custom icon import is available only on Pro version."
+msgstr ""
+
+#: core/views/html-icon-manager.php:125
+msgid "Get Pro"
+msgstr ""
+
+#: core/views/html-sidebar.php:33
+msgid "Register Widget Area"
+msgstr ""
+
+#: core/views/html-sidebar.php:34
+msgid "Add custom widget area."
+msgstr ""
+
+#: core/views/html-sidebar.php:43
+msgid "Add Sidebar"
+msgstr ""
+
+#: core/views/html-sidebar.php:60
+msgid "Predefined Sidebar"
+msgstr ""
+
+#: core/views/html-sidebar.php:61
+msgid "Predefined widget area can't delete."
+msgstr ""
+
+#: core/views/html-sidebar.php:89
+msgid "Custom Sidebar"
+msgstr ""
+
+#: core/views/html-sidebar.php:90
+msgid "Once you added you can assign it in options."
+msgstr ""
+
+#: core/views/html-status.php:21
+msgid "WordPress environment"
+msgstr ""
+
+#: core/views/html-status.php:27
+msgid "Home URL:"
+msgstr ""
+
+#: core/views/html-status.php:28
+msgid "Site URL:"
+msgstr ""
+
+#: core/views/html-status.php:29
+msgid "WordPress Version:"
+msgstr ""
+
+#: core/views/html-status.php:30
+msgid "WordPress Multisite:"
+msgstr ""
+
+#: core/views/html-status.php:31
+msgid "Debug Mode:"
+msgstr ""
+
+#: core/views/html-status.php:32
+msgid "Language:"
+msgstr ""
+
+#: core/views/html-status.php:33
+msgid "Text Direction:"
+msgstr ""
+
+#: core/views/html-status.php:34
+msgid "Child Theme:"
+msgstr ""
+
+#: core/views/html-status.php:45
+msgid "Server environment"
+msgstr ""
+
+#: core/views/html-status.php:52
+msgid "Server Info:"
+msgstr ""
+
+#: core/views/html-status.php:54
+msgid "MySQL version:"
+msgstr ""
+
+#: core/views/html-status.php:85
+msgid "Max Upload Size:"
+msgstr ""
+
+#: core/views/html-status.php:86
+msgid "cURL:"
+msgstr ""
+
+#: core/views/html-status.php:87
+msgid "DOMDocument:"
+msgstr ""
+
+#: core/views/html-status.php:103
+msgid "Shortcode Overrides"
+msgstr ""
+
+#: core/views/html-status.php:104
+msgid "What are the elements are overrides?"
+msgstr ""
+
+#: core/views/html-status.php:121
+#, php-format
+msgid "<li>%1$s version %2$s is out of date. The core version is %3$s</li>"
+msgstr ""
+
+#: core/views/html-status.php:133
+msgid "You are not override any of the shortcodes."
+msgstr ""
+
+#: core/views/html-welcome.php:27
+msgid "Theme Requirements"
+msgstr ""
+
+#: core/views/html-welcome.php:28
+msgid "Theme and Server requirements listed here."
+msgstr ""
+
+#: core/views/html-welcome.php:48
+msgid "Looks good!!"
+msgstr ""
+
+#: core/views/html-welcome.php:63
+msgid "Recent Logs"
+msgstr ""
+
+#: core/views/html-welcome.php:64
+msgid "New features and Bug fixes."
+msgstr ""
+
+#: core/views/html-welcome.php:67
+msgid "View Logs"
+msgstr ""
+
+#: includes/class-admin-page.php:37
+msgid "Video Tutorial"
+msgstr ""
+
+#: includes/class-admin-page.php:38
+msgid "Knowledgebase"
+msgstr ""
+
+#: includes/class-admin-page.php:39
+msgid "Premium Support"
+msgstr ""
+
+#: includes/class-admin-page.php:53 views/html-modules.php:43
+msgid "Modules"
+msgstr ""
+
+#: includes/class-admin-page.php:54 views/html-settings.php:47
+msgid "Settings"
+msgstr ""
+
+#: includes/class-ajax-calls.php:335
+msgid "You have logged in successfully."
+msgstr ""
+
+#: includes/class-ajax-calls.php:373
+msgid "We have sent you an email."
+msgstr ""
+
+#: includes/class-ajax-calls.php:401
+msgid "Someone has requested a password reset for the following account:"
+msgstr ""
+
+#: includes/class-ajax-calls.php:403
+#, php-format
+msgid "Site Name: %s"
+msgstr ""
+
+#: includes/class-ajax-calls.php:405
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: includes/class-ajax-calls.php:406
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: includes/class-ajax-calls.php:407
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: includes/class-ajax-calls.php:444
+msgid "Your password reset link has expired. Please request a new link below."
+msgstr ""
+
+#: includes/class-ajax-calls.php:447
+msgid "Your password reset link appears to be invalid. Please request a new link below."
+msgstr ""
+
+#: includes/class-ajax-calls.php:452 includes/class-ajax-calls.php:529
+msgid "The passwords do not match."
+msgstr ""
+
+#: includes/class-ajax-calls.php:459
+msgid "The passwords resetted successfully."
+msgstr ""
+
+#: includes/class-ajax-calls.php:490
+msgid "Registration confirmation will be emailed to you."
+msgstr ""
+
+#: includes/class-ajax-calls.php:526
+msgid "You should enter the current password."
+msgstr ""
+
+#: includes/class-ajax-calls.php:532
+msgid "The password you entered for the username is incorrect."
+msgstr ""
+
+#: includes/class-ajax-calls.php:538
+msgid "The password you entered is invalid format."
+msgstr ""
+
+#: includes/class-ajax-calls.php:541
+msgid "This email is already registered, please choose another one."
+msgstr ""
+
+#: includes/class-ajax-calls.php:566
+msgid "The profile updated successfully."
+msgstr ""
+
+#: includes/class-ajax-calls.php:679
+msgid "No Products Found"
+msgstr ""
+
+#: includes/class-ajax-calls.php:761
+msgid "Compare product items not found!"
+msgstr ""
+
+#: includes/class-ajax-calls.php:762 includes/class-ajax-calls.php:855
+msgid "Go shop"
+msgstr ""
+
+#: includes/class-ajax-calls.php:854
+msgid "Wishlist items not found!"
+msgstr ""
+
+#: includes/class-widget-base.php:89 modules/icon-box.php:266
+msgid "Show"
+msgstr ""
+
+#: includes/class-widget-base.php:90 modules/icon-box.php:267
+msgid "Hide"
+msgstr ""
+
+#: includes/class-widget-base.php:93
+msgid "Enable"
+msgstr ""
+
+#: includes/class-widget-base.php:94
+msgid "Disable"
+msgstr ""
+
+#: includes/class-widget-base.php:97
+msgid "True"
+msgstr ""
+
+#: includes/class-widget-base.php:98
+msgid "False"
+msgstr ""
+
+#: includes/class-widget-base.php:111
+msgid "Mini"
+msgstr ""
+
+#: includes/class-widget-base.php:112
+msgid "Small"
+msgstr ""
+
+#: includes/class-widget-base.php:113
+msgid "Medium"
+msgstr ""
+
+#: includes/class-widget-base.php:114
+msgid "Large"
+msgstr ""
+
+#: includes/class-widget-base.php:115
+msgid "Full"
+msgstr ""
+
+#: includes/class-widget-base.php:118
+msgid "Solid Rectangle"
+msgstr ""
+
+#: includes/class-widget-base.php:119
+msgid "Solid Round"
+msgstr ""
+
+#: includes/class-widget-base.php:120
+msgid "Solid Ellipse"
+msgstr ""
+
+#: includes/class-widget-base.php:121
+msgid "Outline Rectangle"
+msgstr ""
+
+#: includes/class-widget-base.php:122
+msgid "Outline Round"
+msgstr ""
+
+#: includes/class-widget-base.php:123
+msgid "Outline Ellipse"
+msgstr ""
+
+#: includes/class-widget-base.php:124
+msgid "No Background"
+msgstr ""
+
+#: includes/class-widget-base.php:125 modules/content-type-list.php:119
+msgid "Simple"
+msgstr ""
+
+#: includes/class-widget-base.php:126
+msgid "Half Line"
+msgstr ""
+
+#: includes/class-widget-base.php:127
+msgid "Line Collapse"
+msgstr ""
+
+#: includes/class-widget-base.php:128
+msgid "Line Top Right"
+msgstr ""
+
+#: includes/class-widget-base.php:129
+msgid "Line Top Left"
+msgstr ""
+
+#: includes/class-widget-base.php:130
+msgid "Line Bottom Right"
+msgstr ""
+
+#: includes/class-widget-base.php:131
+msgid "Line Bottom Left"
+msgstr ""
+
+#: includes/class-widget-base.php:134
+msgid "Black"
+msgstr ""
+
+#: includes/class-widget-base.php:135
+msgid "White"
+msgstr ""
+
+#: includes/class-widget-base.php:136
+msgid "Primary"
+msgstr ""
+
+#: includes/class-widget-base.php:137 modules/gradient-text.php:186
+msgid "Gradient"
+msgstr ""
+
+#: includes/class-widget-base.php:138
+msgid "From Gradient Palette"
+msgstr ""
+
+#: includes/class-widget-base.php:141 views/html-settings.php:85
+msgid "Orange Pulp"
+msgstr ""
+
+#: includes/class-widget-base.php:142 views/html-settings.php:86
+msgid "Warm Flame"
+msgstr ""
+
+#: includes/class-widget-base.php:143 views/html-settings.php:87
+msgid "Night Fade"
+msgstr ""
+
+#: includes/class-widget-base.php:144 views/html-settings.php:88
+msgid "Sunny Morning"
+msgstr ""
+
+#: includes/class-widget-base.php:145 views/html-settings.php:89
+msgid "Tempting Azure"
+msgstr ""
+
+#: includes/class-widget-base.php:146 views/html-settings.php:90
+msgid "Young Passion"
+msgstr ""
+
+#: includes/class-widget-base.php:147 views/html-settings.php:91
+msgid "Deep Blue"
+msgstr ""
+
+#: includes/class-widget-base.php:148 views/html-settings.php:92
+msgid "Malibu Beach"
+msgstr ""
+
+#: includes/class-widget-base.php:149 views/html-settings.php:93
+msgid "Plum Plate"
+msgstr ""
+
+#: includes/class-widget-base.php:150 views/html-settings.php:94
+msgid "Evarlasting Sky"
+msgstr ""
+
+#: includes/class-widget-base.php:151 views/html-settings.php:95
+msgid "Aqua Splash"
+msgstr ""
+
+#: includes/class-widget-base.php:152 views/html-settings.php:96
+msgid "Desert Hump"
+msgstr ""
+
+#: includes/class-widget-base.php:153 views/html-settings.php:97
+msgid "Night Sky"
+msgstr ""
+
+#: includes/class-widget-base.php:154 views/html-settings.php:98
+msgid "Passionate Red"
+msgstr ""
+
+#: includes/class-widget-base.php:155 views/html-settings.php:99
+msgid "Heavy Rain"
+msgstr ""
+
+#: includes/class-widget-base.php:156 views/html-settings.php:100
+msgid "Healthy Water"
+msgstr ""
+
+#: includes/class-widget-base.php:157 views/html-settings.php:101
+msgid "Lily Meadow"
+msgstr ""
+
+#: includes/class-widget-base.php:158 views/html-settings.php:102
+msgid "Happy Memories"
+msgstr ""
+
+#: includes/class-widget-base.php:159 views/html-settings.php:103
+msgid "Mountain Rock"
+msgstr ""
+
+#: includes/class-widget-base.php:160 views/html-settings.php:104
+msgid "Sea Shore"
+msgstr ""
+
+#: includes/class-widget-base.php:161 views/html-settings.php:105
+msgid "Cheerful Caramel"
+msgstr ""
+
+#: includes/class-widget-base.php:162 views/html-settings.php:106
+msgid "Spiky Naga"
+msgstr ""
+
+#: includes/class-widget-base.php:163 views/html-settings.php:107
+msgid "Love Kiss"
+msgstr ""
+
+#: includes/class-widget-base.php:164 views/html-settings.php:108
+msgid "Lush"
+msgstr ""
+
+#: includes/class-widget-base.php:165 views/html-settings.php:109
+msgid "Landing Aircraft"
+msgstr ""
+
+#: includes/class-widget-base.php:166 views/html-settings.php:110
+msgid "Sand Strike"
+msgstr ""
+
+#: includes/class-widget-base.php:167 views/html-settings.php:111
+msgid "Vicious Stance"
+msgstr ""
+
+#: includes/class-widget-base.php:168 views/html-settings.php:112
+msgid "Smart Indigo"
+msgstr ""
+
+#: includes/class-widget-base.php:169 views/html-settings.php:113
+msgid "Big Mango"
+msgstr ""
+
+#: includes/class-widget-base.php:170 views/html-settings.php:114
+msgid "New Life"
+msgstr ""
+
+#: includes/class-widget-base.php:173 modules/content-type-list.php:141
+#: modules/content-type-slider.php:142 modules/content-type.php:168
+#: views/html-settings.php:84
+msgid "None"
+msgstr ""
+
+#: includes/class-widget-base.php:174 includes/helper-functions.php:299
+#: includes/helper-functions.php:313
+msgid "Loadmore"
+msgstr ""
+
+#: includes/class-widget-base.php:175
+msgid "Infinite Scroll"
+msgstr ""
+
+#: includes/class-widget-base.php:176 modules/advance-counter.php:488
+msgid "Number"
+msgstr ""
+
+#: includes/class-widget-base.php:177
+msgid "Next Previous"
+msgstr ""
+
+#: includes/class-widget-base.php:180
+msgid "Descending Order"
+msgstr ""
+
+#: includes/class-widget-base.php:181
+msgid "Ascending Order"
+msgstr ""
+
+#: includes/class-widget-base.php:184 modules/content-type-list.php:142
+#: modules/content-type-slider.php:143 modules/content-type.php:169
+msgid "Date"
+msgstr ""
+
+#: includes/class-widget-base.php:185 modules/content-type-list.php:208
+#: modules/content-type-list.php:252 modules/content-type-slider.php:236
+#: modules/content-type-slider.php:280 modules/content-type.php:272
+#: modules/content-type.php:316 modules/products-list.php:173
+#: modules/products-list.php:219 modules/team-slider.php:174 modules/team-slider.php:218
+#: modules/testimonial-slider.php:216 modules/testimonial-slider.php:257
+msgid "ID"
+msgstr ""
+
+#: includes/class-widget-base.php:186
+msgid "Last Modified Date"
+msgstr ""
+
+#: includes/class-widget-base.php:188
+msgid "Random Order"
+msgstr ""
+
+#: includes/class-widget-base.php:189
+msgid "Preserve ID Order"
+msgstr ""
+
+#: includes/class-widget-base.php:190
+msgid "Preserve slug Order"
+msgstr ""
+
+#: includes/helper-functions.php:243 includes/helper-functions.php:283
+msgid "Previous"
+msgstr ""
+
+#: includes/helper-functions.php:244 includes/helper-functions.php:286
+msgid "Next"
+msgstr ""
+
+#: includes/init-content-types.php:34 includes/init-content-types.php:35
+#: modules/initialize-elements.php:133
+msgid "Portfolio"
+msgstr ""
+
+#: includes/init-content-types.php:37
+msgid "All Portfolio"
+msgstr ""
+
+#: includes/init-content-types.php:51
+msgid "Categories"
+msgstr ""
+
+#: includes/init-content-types.php:52 modules/content-type-list.php:143
+#: modules/content-type-slider.php:144 modules/content-type.php:170
+msgid "Category"
+msgstr ""
+
+#: includes/init-content-types.php:54
+msgid "Portfolio Categories"
+msgstr ""
+
+#: includes/init-content-types.php:55
+msgid "All Categories"
+msgstr ""
+
+#: includes/init-content-types.php:74 modules/initialize-elements.php:136
+msgid "Team"
+msgstr ""
+
+#: includes/init-content-types.php:75
+msgid "Member"
+msgstr ""
+
+#: includes/init-content-types.php:77
+msgid "All Members"
+msgstr ""
+
+#: includes/init-content-types.php:88 includes/init-content-types.php:122
+msgid "Jobs"
+msgstr ""
+
+#: includes/init-content-types.php:89 includes/init-content-types.php:123
+msgid "Job"
+msgstr ""
+
+#: includes/init-content-types.php:91
+msgid "Team Jobs"
+msgstr ""
+
+#: includes/init-content-types.php:92 includes/init-content-types.php:126
+msgid "All Jobs"
+msgstr ""
+
+#: includes/init-content-types.php:108
+msgid "Testimonials"
+msgstr ""
+
+#: includes/init-content-types.php:109
+msgid "Testimonial"
+msgstr ""
+
+#: includes/init-content-types.php:111
+msgid "All Testimonials"
+msgstr ""
+
+#: includes/init-content-types.php:125
+msgid "Testimonial Jobs"
+msgstr ""
+
+#: includes/init-meta-fields.php:32
+msgid "Live Preview"
+msgstr ""
+
+#: includes/init-meta-fields.php:33
+msgid "Enter the project URL."
+msgstr ""
+
+#: includes/init-meta-fields.php:42
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/init-meta-fields.php:43
+msgid ""
+"Separate thumbnail, If it's set, it loads instead of feature thumbnail in shortcodes."
+msgstr ""
+
+#: includes/init-meta-fields.php:63
+#: includes/list-tables/class-admin-list-table-testimonial.php:44
+#: modules/testimonial-slider.php:217 modules/testimonial-slider.php:270
+msgid "Rating"
+msgstr ""
+
+#: includes/init-meta-fields.php:64
+msgid "Choose rating."
+msgstr ""
+
+#: includes/init-meta-fields.php:68
+#: includes/list-tables/class-admin-list-table-testimonial.php:71
+#: includes/list-tables/class-admin-list-table-testimonial.php:135
+msgid "Bad"
+msgstr ""
+
+#: includes/init-meta-fields.php:69
+#: includes/list-tables/class-admin-list-table-testimonial.php:74
+#: includes/list-tables/class-admin-list-table-testimonial.php:136
+msgid "OK"
+msgstr ""
+
+#: includes/init-meta-fields.php:70
+#: includes/list-tables/class-admin-list-table-testimonial.php:77
+#: includes/list-tables/class-admin-list-table-testimonial.php:137
+msgid "Average"
+msgstr ""
+
+#: includes/init-meta-fields.php:71
+#: includes/list-tables/class-admin-list-table-testimonial.php:80
+#: includes/list-tables/class-admin-list-table-testimonial.php:138
+msgid "Good"
+msgstr ""
+
+#: includes/init-meta-fields.php:72
+#: includes/list-tables/class-admin-list-table-testimonial.php:83
+#: includes/list-tables/class-admin-list-table-testimonial.php:139
+msgid "Better"
+msgstr ""
+
+#: includes/init-meta-fields.php:89
+#: includes/list-tables/class-admin-list-table-member.php:43
+msgid "Email"
+msgstr ""
+
+#: includes/init-meta-fields.php:90
+msgid "Type email address here."
+msgstr ""
+
+#: includes/init-meta-fields.php:99
+#: includes/list-tables/class-admin-list-table-member.php:44
+msgid "Website"
+msgstr ""
+
+#: includes/init-meta-fields.php:100
+msgid "Add website links here."
+msgstr ""
+
+#: includes/init-meta-fields.php:127 modules/advance-button.php:125 modules/cards.php:172
+#: modules/icon-box.php:291 modules/info-icons.php:248 modules/social-icons.php:243
+msgid "Link"
+msgstr ""
+
+#: includes/init-meta-fields.php:150 includes/init-meta-fields.php:204
+msgid "Social"
+msgstr ""
+
+#: includes/init-meta-fields.php:151
+msgid "Add social links here."
+msgstr ""
+
+#: includes/init-meta-fields.php:217
+msgid "Portfolio Options"
+msgstr ""
+
+#: includes/init-meta-fields.php:231
+msgid "Testimonial Options"
+msgstr ""
+
+#: includes/init-meta-fields.php:245
+msgid "Team Options"
+msgstr ""
+
+#: includes/list-tables/class-admin-list-table-member.php:41
+#: includes/list-tables/class-admin-list-table-portfolio.php:41
+#: includes/list-tables/class-admin-list-table-post.php:41
+#: includes/list-tables/class-admin-list-table-testimonial.php:42
+msgid "Thumb"
+msgstr ""
+
+#: includes/list-tables/class-admin-list-table-member.php:106
+#: includes/list-tables/class-admin-list-table-testimonial.php:116
+msgid "Filter by jobs"
+msgstr ""
+
+#: includes/list-tables/class-admin-list-table-portfolio.php:93
+msgid "Filter by category"
+msgstr ""
+
+#: includes/list-tables/class-admin-list-table-post.php:43
+#: modules/content-type-list.php:212 modules/content-type-slider.php:240
+#: modules/content-type.php:276 modules/products-list.php:176 modules/team-slider.php:178
+msgid "Featured"
+msgstr ""
+
+#: includes/list-tables/class-admin-list-table-templates.php:77
+#, php-format
+msgid "<p class=\"condition\"><span>%s</span></p>"
+msgstr ""
+
+#: includes/list-tables/class-admin-list-table-templates.php:89
+#, php-format
+msgid "<p class=\"condition\"><strong>Singular Posts:</strong> <span>%s</span></p>"
+msgstr ""
+
+#: includes/list-tables/class-admin-list-table-templates.php:98
+#, php-format
+msgid "<p class=\"condition\"><strong>Custom Archives:</strong> <span>%s</span></p>"
+msgstr ""
+
+#: includes/list-tables/class-admin-list-table-templates.php:101
+#, php-format
+msgid "<p class=\"condition\"><strong>Singular Post ID's:</strong> <span>%s</span></p>"
+msgstr ""
+
+#: includes/list-tables/class-admin-list-table-templates.php:134
+msgid "Filter by types"
+msgstr ""
+
+#: includes/list-tables/class-admin-list-table-templates.php:142
+msgid "Filter by conditions"
+msgstr ""
+
+#: includes/list-tables/class-admin-list-table-templates.php:159
+msgid "Filter by state"
+msgstr ""
+
+#: includes/list-tables/class-admin-list-table-templates.php:161
+msgid "In Active"
+msgstr ""
+
+#: includes/list-tables/class-admin-list-table-testimonial.php:134
+msgid "Filter by rating"
+msgstr ""
+
+#: includes/woo-conditional-tags.php:63
+msgid "View Cart"
+msgstr ""
+
+#: modules/advance-button.php:45 modules/initialize-elements.php:116
+msgid "Advance Button"
+msgstr ""
+
+#: modules/advance-button.php:107 modules/advance-counter.php:126 modules/cards.php:110
+#: modules/content-type-list.php:107 modules/content-type-slider.php:107
+#: modules/content-type.php:119 modules/gradient-text.php:104 modules/icon-box.php:109
+#: modules/info-icons.php:110 modules/logo.php:101 modules/navigation-menu.php:106
+#: modules/products-list.php:106 modules/social-icons.php:108 modules/team-slider.php:107
+#: modules/testimonial-slider.php:107 modules/testimonial-slider.php:486
+#: modules/timeline.php:107 modules/video-popup.php:121
+msgid "Content"
+msgstr ""
+
+#: modules/advance-button.php:115 modules/content-type-list.php:352
+#: modules/content-type-list.php:462 modules/content-type-slider.php:380
+#: modules/content-type.php:416 modules/content-type.php:539 modules/icon-box.php:275
+msgid "Button Text"
+msgstr ""
+
+#: modules/advance-button.php:118 modules/icon-box.php:278
+msgid "Click Me"
+msgstr ""
+
+#: modules/advance-button.php:127 modules/cards.php:174 modules/icon-box.php:293
+#: modules/info-icons.php:250 modules/social-icons.php:245 modules/video-popup.php:131
+msgid "https://your-link.com"
+msgstr ""
+
+#: modules/advance-button.php:140 modules/content-type-slider.php:393
+#: modules/content-type.php:429 modules/icon-box.php:309
+msgid "Button Size"
+msgstr ""
+
+#: modules/advance-button.php:150 modules/content-type-list.php:365
+#: modules/content-type-list.php:472 modules/content-type-slider.php:406
+#: modules/content-type.php:442 modules/content-type.php:549 modules/icon-box.php:322
+msgid "Button Type"
+msgstr ""
+
+#: modules/advance-button.php:160 modules/content-type-list.php:378
+#: modules/content-type-list.php:482 modules/content-type-slider.php:419
+#: modules/content-type.php:455 modules/content-type.php:559 modules/icon-box.php:335
+msgid "Button Color"
+msgstr ""
+
+#: modules/advance-button.php:170 modules/content-type-list.php:391
+#: modules/content-type-list.php:492 modules/content-type-slider.php:432
+#: modules/content-type.php:468 modules/content-type.php:569 modules/gradient-text.php:140
+#: modules/icon-box.php:348 views/html-settings.php:78
+msgid "Gradient Palette"
+msgstr ""
+
+#: modules/advance-button.php:191 modules/content-type-list.php:416
+#: modules/content-type-slider.php:457 modules/content-type.php:493
+#: modules/icon-box.php:373
+msgid "Icon Position"
+msgstr ""
+
+#: modules/advance-button.php:207 modules/content-type-list.php:433
+#: modules/content-type-slider.php:474 modules/content-type.php:510
+#: modules/icon-box.php:390
+msgid "Only Icon?"
+msgstr ""
+
+#: modules/advance-button.php:222 modules/advance-counter.php:248 modules/cards.php:227
+#: modules/content-type-list.php:161 modules/content-type-slider.php:189
+#: modules/content-type.php:225 modules/gradient-text.php:150 modules/icon-box.php:240
+#: modules/info-icons.php:303 modules/logo.php:109 modules/navigation-menu.php:145
+#: modules/products-list.php:146 modules/social-icons.php:318 modules/team-slider.php:147
+#: modules/testimonial-slider.php:189 modules/timeline.php:194 modules/video-popup.php:219
+msgid "Extra Class"
+msgstr ""
+
+#: modules/advance-button.php:240 modules/content-type-list.php:334
+#: modules/content-type-list.php:626 modules/content-type-slider.php:362
+#: modules/content-type-slider.php:894 modules/content-type.php:398
+#: modules/content-type.php:814 modules/icon-box.php:254 modules/icon-box.php:690
+msgid "Button"
+msgstr ""
+
+#: modules/advance-button.php:267 modules/social-icons.php:450
+msgid "Height"
+msgstr ""
+
+#: modules/advance-button.php:293 modules/social-icons.php:476
+msgid "Line Height"
+msgstr ""
+
+#: modules/advance-button.php:319 modules/content-type-list.php:985
+#: modules/content-type-list.php:1088 modules/content-type.php:1173
+#: modules/content-type.php:1276 modules/navigation-menu.php:188
+#: modules/navigation-menu.php:356 modules/navigation-menu.php:524
+#: modules/navigation-menu.php:579 modules/products-list.php:336
+#: modules/products-list.php:404 modules/social-icons.php:502
+msgid "Margin"
+msgstr ""
+
+#: modules/advance-button.php:331 modules/advance-counter.php:285
+#: modules/advance-counter.php:357 modules/advance-counter.php:410
+#: modules/advance-counter.php:463 modules/advance-counter.php:521
+#: modules/advance-counter.php:579 modules/cards.php:279 modules/cards.php:384
+#: modules/cards.php:467 modules/content-type-list.php:545
+#: modules/content-type-list.php:601 modules/content-type-list.php:650
+#: modules/content-type-list.php:820 modules/content-type-list.php:997
+#: modules/content-type-list.php:1100 modules/content-type-slider.php:690
+#: modules/content-type-slider.php:757 modules/content-type-slider.php:813
+#: modules/content-type-slider.php:869 modules/content-type-slider.php:918
+#: modules/content-type.php:610 modules/content-type.php:677 modules/content-type.php:733
+#: modules/content-type.php:789 modules/content-type.php:838 modules/content-type.php:1008
+#: modules/content-type.php:1185 modules/content-type.php:1288 modules/icon-box.php:434
+#: modules/icon-box.php:520 modules/icon-box.php:608 modules/icon-box.php:665
+#: modules/icon-box.php:715 modules/info-icons.php:329 modules/info-icons.php:407
+#: modules/info-icons.php:496 modules/navigation-menu.php:200
+#: modules/navigation-menu.php:368 modules/navigation-menu.php:536
+#: modules/navigation-menu.php:592 modules/products-list.php:348
+#: modules/products-list.php:416 modules/products-list.php:465
+#: modules/social-icons.php:514 modules/team-slider.php:507 modules/team-slider.php:563
+#: modules/testimonial-slider.php:517 modules/testimonial-slider.php:573
+#: modules/testimonial-slider.php:629 modules/timeline.php:231 modules/timeline.php:301
+#: modules/timeline.php:358 modules/timeline.php:415 modules/video-popup.php:268
+msgid "Padding"
+msgstr ""
+
+#: modules/advance-button.php:343 modules/advance-counter.php:195 modules/icon-box.php:130
+#: modules/info-icons.php:153 modules/navigation-menu.php:124 modules/social-icons.php:344
+msgid "Alignment"
+msgstr ""
+
+#: modules/advance-button.php:351 modules/advance-counter.php:203 modules/icon-box.php:136
+#: modules/info-icons.php:159 modules/social-icons.php:352
+msgid "Center"
+msgstr ""
+
+#: modules/advance-button.php:365 modules/cards.php:313 modules/cards.php:407
+#: modules/content-type-list.php:663 modules/content-type-list.php:833
+#: modules/content-type-slider.php:931 modules/content-type.php:851
+#: modules/content-type.php:1021 modules/icon-box.php:543 modules/icon-box.php:728
+#: modules/info-icons.php:430 modules/products-list.php:478
+msgid "Border Radius"
+msgstr ""
+
+#: modules/advance-button.php:380 modules/content-type-list.php:677
+#: modules/content-type-list.php:847 modules/content-type-slider.php:945
+#: modules/content-type.php:865 modules/content-type.php:1035 modules/icon-box.php:742
+#: modules/navigation-menu.php:215 modules/navigation-menu.php:383
+#: modules/navigation-menu.php:607 modules/products-list.php:492
+msgid "Normal"
+msgstr ""
+
+#: modules/advance-button.php:387 modules/advance-button.php:439
+#: modules/content-type-list.php:684 modules/content-type-list.php:736
+#: modules/content-type-list.php:854 modules/content-type-list.php:906
+#: modules/content-type-slider.php:952 modules/content-type-slider.php:1004
+#: modules/content-type.php:872 modules/content-type.php:924 modules/content-type.php:1042
+#: modules/content-type.php:1094 modules/icon-box.php:749 modules/icon-box.php:801
+#: modules/navigation-menu.php:222 modules/navigation-menu.php:273
+#: modules/navigation-menu.php:390 modules/navigation-menu.php:441
+#: modules/navigation-menu.php:614 modules/navigation-menu.php:665
+#: modules/products-list.php:499 modules/products-list.php:550
+msgid "Text Color"
+msgstr ""
+
+#: modules/advance-button.php:399 modules/advance-button.php:451
+#: modules/advance-counter.php:274 modules/cards.php:291 modules/cards.php:373
+#: modules/content-type-list.php:696 modules/content-type-list.php:748
+#: modules/content-type-list.php:866 modules/content-type-list.php:918
+#: modules/content-type-list.php:1009 modules/content-type-list.php:1112
+#: modules/content-type-slider.php:679 modules/content-type-slider.php:964
+#: modules/content-type-slider.php:1016 modules/content-type.php:599
+#: modules/content-type.php:884 modules/content-type.php:936 modules/content-type.php:1054
+#: modules/content-type.php:1106 modules/content-type.php:1197
+#: modules/content-type.php:1300 modules/icon-box.php:423 modules/icon-box.php:509
+#: modules/icon-box.php:761 modules/icon-box.php:813 modules/info-icons.php:396
+#: modules/navigation-menu.php:234 modules/navigation-menu.php:284
+#: modules/navigation-menu.php:402 modules/navigation-menu.php:452
+#: modules/navigation-menu.php:626 modules/navigation-menu.php:676
+#: modules/products-list.php:511 modules/products-list.php:562
+#: modules/social-icons.php:258 modules/timeline.php:220 modules/video-popup.php:280
+msgid "Background Color"
+msgstr ""
+
+#: modules/advance-button.php:410 modules/advance-button.php:462
+#: modules/advance-counter.php:297 modules/cards.php:302 modules/cards.php:396
+#: modules/content-type-list.php:707 modules/content-type-list.php:759
+#: modules/content-type-list.php:877 modules/content-type-list.php:929
+#: modules/content-type-list.php:1020 modules/content-type-list.php:1123
+#: modules/content-type-slider.php:702 modules/content-type-slider.php:975
+#: modules/content-type-slider.php:1027 modules/content-type.php:622
+#: modules/content-type.php:895 modules/content-type.php:947 modules/content-type.php:1065
+#: modules/content-type.php:1117 modules/content-type.php:1208
+#: modules/content-type.php:1311 modules/icon-box.php:446 modules/icon-box.php:532
+#: modules/icon-box.php:772 modules/icon-box.php:824 modules/info-icons.php:341
+#: modules/info-icons.php:419 modules/navigation-menu.php:245
+#: modules/navigation-menu.php:295 modules/navigation-menu.php:413
+#: modules/navigation-menu.php:463 modules/navigation-menu.php:637
+#: modules/navigation-menu.php:687 modules/products-list.php:522
+#: modules/products-list.php:573 modules/timeline.php:243 modules/video-popup.php:291
+msgid "Border Color"
+msgstr ""
+
+#: modules/advance-button.php:432 modules/content-type-list.php:729
+#: modules/content-type-list.php:899 modules/content-type-slider.php:997
+#: modules/content-type.php:917 modules/content-type.php:1087 modules/icon-box.php:794
+#: modules/navigation-menu.php:266 modules/navigation-menu.php:434
+#: modules/navigation-menu.php:658 modules/products-list.php:543
+msgid "Hover"
+msgstr ""
+
+#: modules/advance-button.php:482 modules/content-type-list.php:779
+#: modules/content-type-list.php:949 modules/content-type-slider.php:1047
+#: modules/content-type.php:967 modules/content-type.php:1137 modules/icon-box.php:844
+#: modules/navigation-menu.php:314 modules/navigation-menu.php:482
+#: modules/navigation-menu.php:706 modules/products-list.php:592
+msgid "Hover Animation"
+msgstr ""
+
+#: modules/advance-button.php:507
+msgid "Spacing"
+msgstr ""
+
+#: modules/advance-counter.php:52 modules/initialize-elements.php:117
+msgid "Advance Counter"
+msgstr ""
+
+#: modules/advance-counter.php:134
+msgid "Display Icon"
+msgstr ""
+
+#: modules/advance-counter.php:155
+msgid "Targeted Number"
+msgstr ""
+
+#: modules/advance-counter.php:165 modules/advance-counter.php:546
+msgid "Label"
+msgstr ""
+
+#: modules/advance-counter.php:168
+msgid "Percent Number"
+msgstr ""
+
+#: modules/advance-counter.php:175 modules/advance-counter.php:382
+msgid "Prefix"
+msgstr ""
+
+#: modules/advance-counter.php:185 modules/advance-counter.php:435
+msgid "Suffix"
+msgstr ""
+
+#: modules/advance-counter.php:218
+msgid "Decimals"
+msgstr ""
+
+#: modules/advance-counter.php:228
+msgid "Decimal Delimiter"
+msgstr ""
+
+#: modules/advance-counter.php:238
+msgid "Thousand Delimiter"
+msgstr ""
+
+#: modules/advance-counter.php:266 modules/cards.php:245
+#: modules/content-type-slider.php:671 modules/content-type.php:591
+#: modules/icon-box.php:415 modules/info-icons.php:321 modules/timeline.php:212
+msgid "Box"
+msgstr ""
+
+#: modules/advance-counter.php:329 modules/cards.php:346 modules/icon-box.php:478
+#: modules/info-icons.php:365 modules/social-icons.php:408
+msgid "Icon Size"
+msgstr ""
+
+#: modules/advance-counter.php:345 modules/advance-counter.php:398
+#: modules/advance-counter.php:451 modules/advance-counter.php:505
+#: modules/advance-counter.php:563 modules/cards.php:362 modules/cards.php:456
+#: modules/content-type-list.php:530 modules/content-type-list.php:586
+#: modules/content-type-list.php:974 modules/content-type-list.php:1077
+#: modules/content-type-slider.php:742 modules/content-type-slider.php:798
+#: modules/content-type-slider.php:854 modules/content-type.php:662
+#: modules/content-type.php:718 modules/content-type.php:774 modules/content-type.php:1162
+#: modules/content-type.php:1265 modules/icon-box.php:494 modules/icon-box.php:593
+#: modules/icon-box.php:650 modules/info-icons.php:381 modules/info-icons.php:480
+#: modules/products-list.php:321 modules/products-list.php:389 modules/team-slider.php:492
+#: modules/team-slider.php:548 modules/testimonial-slider.php:502
+#: modules/testimonial-slider.php:558 modules/testimonial-slider.php:614
+#: modules/timeline.php:286 modules/timeline.php:343 modules/timeline.php:400
+#: modules/video-popup.php:253
+msgid "Color"
+msgstr ""
+
+#: modules/cards.php:48 modules/initialize-elements.php:123
+msgid "Cards"
+msgstr ""
+
+#: modules/cards.php:122 modules/content-type.php:154 modules/info-icons.php:122
+msgid "2 Column"
+msgstr ""
+
+#: modules/cards.php:123 modules/content-type.php:155 modules/info-icons.php:123
+msgid "3 Column"
+msgstr ""
+
+#: modules/cards.php:124 modules/content-type.php:156 modules/info-icons.php:124
+msgid "4 Column"
+msgstr ""
+
+#: modules/cards.php:125 modules/info-icons.php:125
+msgid "5 Column"
+msgstr ""
+
+#: modules/cards.php:126 modules/info-icons.php:126
+msgid "6 Column"
+msgstr ""
+
+#: modules/cards.php:134 modules/content-type-list.php:127
+#: modules/content-type-slider.php:128 modules/content-type.php:140
+#: modules/gradient-text.php:122 modules/icon-box.php:208 modules/info-icons.php:134
+#: modules/products-list.php:126 modules/team-slider.php:127
+#: modules/testimonial-slider.php:167 modules/timeline.php:115
+msgid "Title Tag"
+msgstr ""
+
+#: modules/cards.php:156 modules/gradient-text.php:115 modules/icon-box.php:200
+#: modules/info-icons.php:183 modules/social-icons.php:178 modules/timeline.php:145
+#: shortcodes/gradient-text.php:16
+msgid "Default Title"
+msgstr ""
+
+#: modules/cards.php:187 modules/info-icons.php:263 modules/social-icons.php:285
+msgid "Icon Set"
+msgstr ""
+
+#: modules/cards.php:196 modules/info-icons.php:272
+msgid "Quick Delivery"
+msgstr ""
+
+#: modules/cards.php:203 modules/info-icons.php:279
+msgid "Secure Payments"
+msgstr ""
+
+#: modules/cards.php:210 modules/info-icons.php:286
+msgid "24/7 Live Support"
+msgstr ""
+
+#: modules/cards.php:217 modules/info-icons.php:293
+msgid "Free Returns"
+msgstr ""
+
+#: modules/cards.php:253
+msgid "Gap"
+msgstr ""
+
+#: modules/content-type-list.php:45 modules/initialize-elements.php:131
+msgid "Content Type List"
+msgstr ""
+
+#: modules/content-type-list.php:115 modules/content-type-slider.php:115
+#: modules/content-type.php:127 modules/icon-box.php:117 modules/products-list.php:114
+#: modules/social-icons.php:116 modules/team-slider.php:115
+#: modules/testimonial-slider.php:115
+msgid "Style"
+msgstr ""
+
+#: modules/content-type-list.php:137 modules/content-type-list.php:514
+#: modules/content-type-slider.php:138 modules/content-type-slider.php:726
+#: modules/content-type.php:164 modules/content-type.php:646 modules/team-slider.php:532
+msgid "Meta"
+msgstr ""
+
+#: modules/content-type-list.php:151 modules/content-type-slider.php:616
+#: modules/content-type.php:215 modules/team-slider.php:421
+#: modules/testimonial-slider.php:431
+msgid "Pagination"
+msgstr ""
+
+#: modules/content-type-list.php:175 modules/content-type-slider.php:203
+#: modules/content-type.php:239 modules/products-list.php:160 modules/team-slider.php:161
+#: modules/testimonial-slider.php:203
+msgid "Query"
+msgstr ""
+
+#: modules/content-type-list.php:183 modules/content-type-slider.php:211
+#: modules/content-type.php:45 modules/content-type.php:247
+#: modules/initialize-elements.php:130
+msgid "Content Type"
+msgstr ""
+
+#: modules/content-type-list.php:193 modules/content-type-slider.php:221
+#: modules/content-type.php:257
+msgid "Taxonomy"
+msgstr ""
+
+#: modules/content-type-list.php:203 modules/content-type-slider.php:231
+#: modules/content-type.php:267 modules/info-icons.php:235 modules/products-list.php:168
+#: modules/team-slider.php:169 modules/testimonial-slider.php:211
+msgid "Method"
+msgstr ""
+
+#: modules/content-type-list.php:207 modules/content-type-slider.php:235
+#: modules/content-type.php:271 modules/products-list.php:172 modules/team-slider.php:173
+#: modules/testimonial-slider.php:215
+msgid "Default"
+msgstr ""
+
+#: modules/content-type-list.php:209 modules/content-type-list.php:265
+#: modules/content-type-slider.php:237 modules/content-type-slider.php:293
+#: modules/content-type.php:273 modules/content-type.php:329 modules/products-list.php:174
+#: modules/products-list.php:232 modules/team-slider.php:175 modules/team-slider.php:231
+msgid "Terms"
+msgstr ""
+
+#: modules/content-type-list.php:210 modules/content-type-list.php:278
+#: modules/content-type-slider.php:238 modules/content-type-slider.php:306
+#: modules/content-type.php:274 modules/content-type.php:342 modules/products-list.php:175
+#: modules/products-list.php:245 modules/team-slider.php:176 modules/team-slider.php:244
+msgid "Author"
+msgstr ""
+
+#: modules/content-type-list.php:211 modules/content-type-slider.php:239
+#: modules/content-type.php:275 modules/team-slider.php:177
+msgid "Popular"
+msgstr ""
+
+#: modules/content-type-list.php:220 modules/content-type-slider.php:248
+#: modules/content-type.php:284 modules/products-list.php:187 modules/team-slider.php:186
+#: modules/testimonial-slider.php:225
+msgid "Order"
+msgstr ""
+
+#: modules/content-type-list.php:230 modules/content-type-slider.php:258
+#: modules/content-type.php:294 modules/products-list.php:197 modules/team-slider.php:196
+#: modules/testimonial-slider.php:235
+msgid "Orderby"
+msgstr ""
+
+#: modules/content-type-list.php:240 modules/content-type-slider.php:268
+#: modules/content-type.php:304 modules/products-list.php:207 modules/team-slider.php:206
+#: modules/testimonial-slider.php:245
+msgid "Limit"
+msgstr ""
+
+#: modules/content-type-list.php:253 modules/content-type-list.php:292
+#: modules/content-type-slider.php:281 modules/content-type-slider.php:320
+#: modules/content-type.php:317 modules/content-type.php:356 modules/products-list.php:220
+#: modules/products-list.php:259 modules/team-slider.php:219 modules/team-slider.php:258
+#: modules/testimonial-slider.php:258 modules/testimonial-slider.php:288
+msgid "Type the id (integer), Explode it with commas."
+msgstr ""
+
+#: modules/content-type-list.php:266 modules/content-type-list.php:302
+#: modules/content-type-slider.php:294 modules/content-type-slider.php:330
+#: modules/content-type.php:330 modules/content-type.php:366 modules/products-list.php:233
+#: modules/products-list.php:269 modules/team-slider.php:232 modules/team-slider.php:268
+msgid "Type the terms slug, Explode it with commas."
+msgstr ""
+
+#: modules/content-type-list.php:279 modules/content-type-list.php:312
+#: modules/content-type-slider.php:307 modules/content-type-slider.php:340
+#: modules/content-type.php:343 modules/content-type.php:376 modules/products-list.php:246
+#: modules/products-list.php:279 modules/team-slider.php:245 modules/team-slider.php:278
+msgid "Type the author username, Explode it with commas."
+msgstr ""
+
+#: modules/content-type-list.php:291 modules/content-type-slider.php:319
+#: modules/content-type.php:355 modules/products-list.php:258 modules/team-slider.php:257
+#: modules/testimonial-slider.php:287
+msgid "Exclude ID"
+msgstr ""
+
+#: modules/content-type-list.php:301 modules/content-type-slider.php:329
+#: modules/content-type.php:365 modules/products-list.php:268 modules/team-slider.php:267
+msgid "Exclude Terms"
+msgstr ""
+
+#: modules/content-type-list.php:311 modules/content-type-slider.php:339
+#: modules/content-type.php:375 modules/products-list.php:278 modules/team-slider.php:277
+msgid "Exclude Author"
+msgstr ""
+
+#: modules/content-type-list.php:321 modules/content-type-slider.php:349
+#: modules/content-type.php:385 modules/products-list.php:288 modules/team-slider.php:287
+#: modules/testimonial-slider.php:297
+msgid "Offset Count"
+msgstr ""
+
+#: modules/content-type-list.php:342 modules/content-type-slider.php:370
+#: modules/content-type.php:406 modules/icon-box.php:262
+msgid "Show Button?"
+msgstr ""
+
+#: modules/content-type-list.php:355 modules/content-type-slider.php:383
+#: modules/content-type.php:419 shortcodes/content-type-list.php:30
+#: shortcodes/content-type-slider.php:27 shortcodes/content-type.php:34
+msgid "Read More"
+msgstr ""
+
+#: modules/content-type-list.php:454 modules/content-type-list.php:465
+#: modules/content-type-list.php:796 modules/content-type.php:531
+#: modules/content-type.php:542 modules/content-type.php:984
+msgid "Load More"
+msgstr ""
+
+#: modules/content-type-list.php:966 modules/content-type.php:1154
+msgid "Page Number"
+msgstr ""
+
+#: modules/content-type-list.php:1031 modules/content-type.php:1219
+msgid "Current Color"
+msgstr ""
+
+#: modules/content-type-list.php:1042 modules/content-type.php:1230
+msgid "Current Background Color"
+msgstr ""
+
+#: modules/content-type-list.php:1053 modules/content-type.php:1241
+msgid "Current Border Color"
+msgstr ""
+
+#: modules/content-type-list.php:1069 modules/content-type.php:1257
+msgid "Next/Previous"
+msgstr ""
+
+#: modules/content-type-slider.php:45 modules/initialize-elements.php:132
+msgid "Content Type Slider"
+msgstr ""
+
+#: modules/content-type-slider.php:119 modules/content-type.php:131
+msgid "Masonry"
+msgstr ""
+
+#: modules/content-type-slider.php:120 modules/content-type.php:132
+msgid "Post Content Overlap"
+msgstr ""
+
+#: modules/content-type-slider.php:152 modules/content-type-slider.php:838
+#: modules/content-type.php:178 modules/content-type.php:758
+msgid "Excerpt"
+msgstr ""
+
+#: modules/content-type-slider.php:162 modules/content-type.php:188
+#: modules/testimonial-slider.php:177
+msgid "Excerpt Limit"
+msgstr ""
+
+#: modules/content-type-slider.php:177 modules/content-type.php:203
+msgid "Image Dimension"
+msgstr ""
+
+#: modules/content-type-slider.php:495 modules/team-slider.php:300
+#: modules/testimonial-slider.php:310
+msgid "Slider"
+msgstr ""
+
+#: modules/content-type-slider.php:503 modules/team-slider.php:308
+#: modules/testimonial-slider.php:318
+msgid "Slides Per View"
+msgstr ""
+
+#: modules/content-type-slider.php:513 modules/team-slider.php:318
+#: modules/testimonial-slider.php:328
+msgid "Loop"
+msgstr ""
+
+#: modules/content-type-slider.php:523 modules/team-slider.php:328
+#: modules/testimonial-slider.php:338
+msgid "Autoplay"
+msgstr ""
+
+#: modules/content-type-slider.php:533 modules/team-slider.php:338
+#: modules/testimonial-slider.php:348
+msgid "Speed"
+msgstr ""
+
+#: modules/content-type-slider.php:543 modules/team-slider.php:348
+#: modules/testimonial-slider.php:358
+msgid "Auto Height"
+msgstr ""
+
+#: modules/content-type-slider.php:553 modules/team-slider.php:358
+#: modules/testimonial-slider.php:368
+msgid "Direction"
+msgstr ""
+
+#: modules/content-type-slider.php:557 modules/team-slider.php:362
+#: modules/testimonial-slider.php:372
+msgid "Horizontal"
+msgstr ""
+
+#: modules/content-type-slider.php:558 modules/team-slider.php:363
+#: modules/testimonial-slider.php:373
+msgid "Vertical"
+msgstr ""
+
+#: modules/content-type-slider.php:566 modules/team-slider.php:371
+#: modules/testimonial-slider.php:381
+msgid "Draggable"
+msgstr ""
+
+#: modules/content-type-slider.php:576 modules/team-slider.php:381
+#: modules/testimonial-slider.php:391
+msgid "Touch Move"
+msgstr ""
+
+#: modules/content-type-slider.php:586 modules/team-slider.php:391
+#: modules/testimonial-slider.php:401
+msgid "Centered Slides"
+msgstr ""
+
+#: modules/content-type-slider.php:596 modules/team-slider.php:401
+#: modules/testimonial-slider.php:411
+msgid "Keyboard"
+msgstr ""
+
+#: modules/content-type-slider.php:606 modules/team-slider.php:411
+#: modules/testimonial-slider.php:421
+msgid "Mouse Wheel"
+msgstr ""
+
+#: modules/content-type-slider.php:626 modules/team-slider.php:431
+#: modules/testimonial-slider.php:441
+msgid "Navigation"
+msgstr ""
+
+#: modules/content-type-slider.php:636 modules/team-slider.php:441
+#: modules/testimonial-slider.php:451
+msgid "Effect"
+msgstr ""
+
+#: modules/content-type-slider.php:640 modules/team-slider.php:445
+#: modules/testimonial-slider.php:455
+msgid "Slide"
+msgstr ""
+
+#: modules/content-type-slider.php:641 modules/team-slider.php:446
+#: modules/testimonial-slider.php:456
+msgid "Fade"
+msgstr ""
+
+#: modules/content-type-slider.php:642 modules/team-slider.php:447
+#: modules/testimonial-slider.php:457
+msgid "Cube"
+msgstr ""
+
+#: modules/content-type-slider.php:643 modules/team-slider.php:448
+#: modules/testimonial-slider.php:458
+msgid "Coverflow"
+msgstr ""
+
+#: modules/content-type-slider.php:644 modules/team-slider.php:449
+#: modules/testimonial-slider.php:459
+msgid "Flip"
+msgstr ""
+
+#: modules/content-type-slider.php:652 modules/team-slider.php:457
+#: modules/testimonial-slider.php:467
+msgid "Initial Slide"
+msgstr ""
+
+#: modules/gradient-text.php:42 modules/initialize-elements.php:118
+msgid "Gradient Text"
+msgstr ""
+
+#: modules/icon-box.php:47 modules/initialize-elements.php:120
+msgid "Icon Box"
+msgstr ""
+
+#: modules/icon-box.php:121
+msgid "Separate"
+msgstr ""
+
+#: modules/icon-box.php:122
+msgid "Collapse"
+msgstr ""
+
+#: modules/icon-box.php:149 modules/icon-box.php:168 modules/info-icons.php:196
+#: modules/info-icons.php:212 modules/video-popup.php:150
+msgid "Image"
+msgstr ""
+
+#: modules/icon-box.php:232 modules/timeline.php:154
+msgid "Enter the short description to explain what is this all about?"
+msgstr ""
+
+#: modules/info-icons.php:48 modules/initialize-elements.php:122
+msgid "Info Icons"
+msgstr ""
+
+#: modules/info-icons.php:167
+msgid "Cover with border?"
+msgstr ""
+
+#: modules/info-icons.php:171
+msgid "With Border"
+msgstr ""
+
+#: modules/info-icons.php:172
+msgid "Without Border"
+msgstr ""
+
+#: modules/info-icons.php:239
+msgid "Square"
+msgstr ""
+
+#: modules/info-icons.php:240
+msgid "Round"
+msgstr ""
+
+#: modules/initialize-elements.php:119
+msgid "Image Box"
+msgstr ""
+
+#: modules/initialize-elements.php:121
+msgid "Image Mask"
+msgstr ""
+
+#: modules/initialize-elements.php:124 modules/timeline.php:45 modules/timeline.php:162
+msgid "Timeline"
+msgstr ""
+
+#: modules/initialize-elements.php:125 modules/video-popup.php:47
+msgid "Video Popup"
+msgstr ""
+
+#: modules/initialize-elements.php:126 modules/social-icons.php:46
+msgid "Social Icons"
+msgstr ""
+
+#: modules/initialize-elements.php:127
+msgid "Login & Register Form"
+msgstr ""
+
+#: modules/initialize-elements.php:129
+msgid "Content Post Types"
+msgstr ""
+
+#: modules/initialize-elements.php:134
+msgid "Portfolio Slider"
+msgstr ""
+
+#: modules/initialize-elements.php:135
+msgid "Portfolio Extend Slider"
+msgstr ""
+
+#: modules/initialize-elements.php:137 modules/team-slider.php:45
+msgid "Team Slider"
+msgstr ""
+
+#: modules/initialize-elements.php:138 modules/testimonial-slider.php:45
+msgid "Testimonial Slider"
+msgstr ""
+
+#: modules/initialize-elements.php:140
+msgid "Header and Footer"
+msgstr ""
+
+#: modules/initialize-elements.php:141 modules/logo.php:39
+msgid "Logo"
+msgstr ""
+
+#: modules/initialize-elements.php:142 modules/navigation-menu.php:44
+msgid "Navigation Menu"
+msgstr ""
+
+#: modules/initialize-elements.php:144
+msgid "WooCommerce"
+msgstr ""
+
+#: modules/initialize-elements.php:145
+msgid "Products"
+msgstr ""
+
+#: modules/initialize-elements.php:146
+msgid "Products Slider"
+msgstr ""
+
+#: modules/initialize-elements.php:147 modules/products-list.php:44
+msgid "Products List"
+msgstr ""
+
+#: modules/initialize-elements.php:148
+msgid "Compare Products"
+msgstr ""
+
+#: modules/initialize-elements.php:149
+msgid "Wishlist"
+msgstr ""
+
+#: modules/initialize-elements.php:150
+msgid "Ajax Product Search"
+msgstr ""
+
+#: modules/navigation-menu.php:114 modules/navigation-menu.php:163
+msgid "Menu"
+msgstr ""
+
+#: modules/navigation-menu.php:117
+msgid "Select a Menu"
+msgstr ""
+
+#: modules/navigation-menu.php:331
+msgid "Sub Menu"
+msgstr ""
+
+#: modules/navigation-menu.php:499
+msgid "Mega Menu Title"
+msgstr ""
+
+#: modules/navigation-menu.php:554
+msgid "Mega Menu Link"
+msgstr ""
+
+#: modules/products-list.php:118
+msgid "Style 1"
+msgstr ""
+
+#: modules/products-list.php:136
+msgid "Show Thumbnail?"
+msgstr ""
+
+#: modules/products-list.php:177
+msgid "Not Featured"
+msgstr ""
+
+#: modules/products-list.php:178
+msgid "On Sale"
+msgstr ""
+
+#: modules/products-list.php:179
+msgid "Best Selling"
+msgstr ""
+
+#: modules/products-list.php:373
+msgid "Price"
+msgstr ""
+
+#: modules/products-list.php:441
+msgid "Cart Button"
+msgstr ""
+
+#: modules/social-icons.php:120
+msgid "Plain"
+msgstr ""
+
+#: modules/social-icons.php:121
+msgid "Outline Circle"
+msgstr ""
+
+#: modules/social-icons.php:122
+msgid "Outline Square"
+msgstr ""
+
+#: modules/social-icons.php:123
+msgid "Solid Circle"
+msgstr ""
+
+#: modules/social-icons.php:124
+msgid "Solid Square"
+msgstr ""
+
+#: modules/social-icons.php:125
+msgid "Icon with Text"
+msgstr ""
+
+#: modules/social-icons.php:133
+msgid "Floating"
+msgstr ""
+
+#: modules/social-icons.php:145
+msgid "Floating Position"
+msgstr ""
+
+#: modules/social-icons.php:149
+msgid "Top Left"
+msgstr ""
+
+#: modules/social-icons.php:150
+msgid "Top Right"
+msgstr ""
+
+#: modules/social-icons.php:151
+msgid "Bottom Left"
+msgstr ""
+
+#: modules/social-icons.php:152
+msgid "Bottom Right"
+msgstr ""
+
+#: modules/social-icons.php:163
+msgid "Official Color"
+msgstr ""
+
+#: modules/social-icons.php:269 modules/social-icons.php:366
+msgid "Icon Color"
+msgstr ""
+
+#: modules/social-icons.php:290
+msgid "Facebook"
+msgstr ""
+
+#: modules/social-icons.php:297
+msgid "Twitter"
+msgstr ""
+
+#: modules/social-icons.php:304
+msgid "Youtube"
+msgstr ""
+
+#: modules/social-icons.php:336
+msgid "Icons"
+msgstr ""
+
+#: modules/social-icons.php:378
+msgid "Icon Background Color"
+msgstr ""
+
+#: modules/social-icons.php:389
+msgid "Icon Border Color"
+msgstr ""
+
+#: modules/social-icons.php:424
+msgid "Width"
+msgstr ""
+
+#: modules/team-slider.php:119 modules/testimonial-slider.php:119
+msgid "Classic"
+msgstr ""
+
+#: modules/team-slider.php:137
+msgid "Show Job?"
+msgstr ""
+
+#: modules/testimonial-slider.php:127
+msgid "Show thumbnail?"
+msgstr ""
+
+#: modules/testimonial-slider.php:137
+msgid "Show client name?"
+msgstr ""
+
+#: modules/testimonial-slider.php:147
+msgid "Show client job?"
+msgstr ""
+
+#: modules/testimonial-slider.php:157
+msgid "Show rating?"
+msgstr ""
+
+#: modules/testimonial-slider.php:274
+msgid "Above 3"
+msgstr ""
+
+#: modules/testimonial-slider.php:275
+msgid "Above 4"
+msgstr ""
+
+#: modules/testimonial-slider.php:276
+msgid "Only 5"
+msgstr ""
+
+#: modules/testimonial-slider.php:542 modules/testimonial-slider.php:598
+msgid "Client Name"
+msgstr ""
+
+#: modules/timeline.php:134 modules/timeline.php:269
+msgid "Sub Title"
+msgstr ""
+
+#: modules/timeline.php:136
+msgid "On 25th Feb 2020"
+msgstr ""
+
+#: modules/timeline.php:167
+msgid "On 1975 – 1985"
+msgstr ""
+
+#: modules/timeline.php:168
+msgid "The Founding of Microsoft"
+msgstr ""
+
+#: modules/timeline.php:169
+msgid ""
+"Microsoft is founded and starts out creating its first software products, such as the "
+"MS-DOS operating system."
+msgstr ""
+
+#: modules/timeline.php:172
+msgid "On 1985 – 1994"
+msgstr ""
+
+#: modules/timeline.php:173
+msgid "Growing Microsoft"
+msgstr ""
+
+#: modules/timeline.php:174
+msgid "Microsoft moves to Redmond, IPOs, launches Microsoft Office and its first GUI."
+msgstr ""
+
+#: modules/timeline.php:177
+msgid "On 1995 – 2000"
+msgstr ""
+
+#: modules/timeline.php:178
+msgid "Stepping Stone"
+msgstr ""
+
+#: modules/timeline.php:179
+msgid "Microsoft releases Windows 95 and Windows 98, both which become extremely popular."
+msgstr ""
+
+#: modules/timeline.php:182
+msgid "On 2000 - Onwards"
+msgstr ""
+
+#: modules/timeline.php:183
+msgid "Modern Microsoft"
+msgstr ""
+
+#: modules/timeline.php:184
+msgid ""
+"The desktop operating system market is collapsing, as is the market share of Windows-"
+"based programming languages among developers."
+msgstr ""
+
+#: modules/video-popup.php:129
+msgid "Youtube/Vimeo Link"
+msgstr ""
+
+#: modules/video-popup.php:144
+msgid "Trigger"
+msgstr ""
+
+#: modules/video-popup.php:149
+msgid "Text"
+msgstr ""
+
+#: modules/video-popup.php:161
+msgid "Trigger Icon"
+msgstr ""
+
+#: modules/video-popup.php:173 modules/video-popup.php:237
+msgid "Trigger Text"
+msgstr ""
+
+#: modules/video-popup.php:176
+msgid "Play"
+msgstr ""
+
+#: modules/video-popup.php:187
+msgid "Trigger Image"
+msgstr ""
+
+#: octagon-elements-lite-for-elementor.php:331
+#, php-format
+msgid "%1$s is enabled but not effective. It requires %2$s in order to work."
+msgstr ""
+
+#: octagon-elements-lite-for-elementor.php:332 octagon-elements-lite-for-elementor.php:356
+#: octagon-elements-lite-for-elementor.php:381
+msgid "Octagon Elements for Elementor"
+msgstr ""
+
+#: octagon-elements-lite-for-elementor.php:333 octagon-elements-lite-for-elementor.php:357
+msgid "Elementor"
+msgstr ""
+
+#: octagon-elements-lite-for-elementor.php:355 octagon-elements-lite-for-elementor.php:380
+#, php-format
+msgid "%1$s requires %2$s version %3$s or greater."
+msgstr ""
+
+#: octagon-elements-lite-for-elementor.php:382
+msgid "PHP"
+msgstr ""
+
+#: views/html-modules.php:44
+msgid "Select the shortcode elements."
+msgstr ""
+
+#: views/html-modules.php:116 views/html-settings.php:133
+msgid "Save"
+msgstr ""
+
+#: views/html-settings.php:48
+msgid "Those settings applies globally."
+msgstr ""
+
+#: views/html-settings.php:68
+msgid "Primay Color"
+msgstr ""
+
+#: views/html-settings.php:69
+msgid "If it's chosen, it applies on elements where it's selected color as primary color."
+msgstr ""
+
+#: views/html-settings.php:79
+msgid ""
+"If it's chosen, it applies on elements where it's selected color as gradient palette."
+msgstr ""

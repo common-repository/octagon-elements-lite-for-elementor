@@ -1,0 +1,113 @@
+/*!
+ * Octagon Elements for Elementor AJAX Product Search LESS v1.0
+ *
+ * 
+ * Copyright (c) octagon web studio
+ *
+ */
+
+/* ---------------------------------------------------------------------------
+ * AJAX Product Search
+------------------------------------------------------------------------------ */
+
+.ajax-product-search form {
+    position: relative;
+}
+
+.ajax-product-search form {
+    display: flex;
+}
+
+.ajax-product-search .main-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+}    
+
+.ajax-product-search form label {
+    margin: 0;
+    width: 100%;
+}
+
+.ajax-product-search form input[type="search"] {
+    line-height: 50px;
+    height: 50px;
+}
+
+.ajax-product-search form input[type="submit"] {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 50px;
+    color: #fff;
+    background: #100d0c;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 44px;
+    height: 50px;
+    display: inline-block;
+    border: none;
+    position: relative;
+    box-shadow: none;
+    outline: 0;
+}
+
+.search-posts-data {
+    background: #fff;
+    padding: 15px;
+    width: 100%;
+    max-height: 350px;
+    visibility: hidden;
+    opacity: 0;
+    box-shadow: 0 1px 1px 1px rgba( 0, 0, 0, 0.04 );
+    overflow-y: auto;
+    position: absolute;
+    z-index: 1;
+    transition: all ease 500ms;
+}
+
+.search-posts-data.active {
+    visibility: visible;
+    opacity: 1;
+    transition: all ease 500ms;
+}
+
+.ajax-product-search .posts {
+    margin: 0 0 15px 0;
+    padding: 0 0 15px 0;
+    display: flex;
+    border-bottom: 1px solid rgba( 0, 0, 0, 0.04 );
+}
+
+.ajax-product-search .posts:last-child {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.ajax-product-search .post-content {
+    width: 100%;
+}
+
+.ajax-product-search .post-media {
+    margin: 0 10px 0 0;
+}
+
+.ajax-product-search .title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.ajax-product-search .notice {
+    margin: 0;
+}
+
+.ajax-product-search.loading .loader {
+    position: absolute;
+    right: -30px;
+    bottom: 15px;
+}
+
+.ajax-product-search.loading .loader div {
+    border-color: #282727 transparent #282727 transparent;
+}

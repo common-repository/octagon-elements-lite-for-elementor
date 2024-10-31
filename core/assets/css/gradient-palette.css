@@ -1,0 +1,371 @@
+/*!
+ * Gradient Palette CSS v1.1
+ *
+ * 
+ * Copyright (c) 2020 octagon web studio
+ *
+ */
+
+/* ---------------------------------------------------------------------------
+ * Gradient Palette
+------------------------------------------------------------------------------ */
+
+.orange-pulp,
+.btn.btn-type-solid-rect.btn-color-gradient-palette.orange-pulp,
+.btn.btn-type-solid-round.btn-color-gradient-palette.orange-pulp,
+.btn.btn-type-solid-ellipse.btn-color-gradient-palette.orange-pulp,
+.scheme-orange-pulp .btn.btn-type-solid-rect.btn-color-gradient,
+.scheme-orange-pulp .btn.btn-type-solid-round.btn-color-gradient,
+.scheme-orange-pulp .btn.btn-type-solid-ellipse.btn-color-gradient,
+.gradient-text .orange-pulp {
+    background: linear-gradient( to right, #ff216b 0%, #ff4246 100% );
+    background-color: #ff4246;
+}
+
+.warm-flame,
+.btn.btn-type-solid-rect.btn-color-gradient-palette.warm-flame,
+.btn.btn-type-solid-round.btn-color-gradient-palette.warm-flame,
+.btn.btn-type-solid-ellipse.btn-color-gradient-palette.warm-flame,
+.scheme-warm-flame .btn.btn-type-solid-rect.btn-color-gradient,
+.scheme-warm-flame .btn.btn-type-solid-round.btn-color-gradient,
+.scheme-warm-flame .btn.btn-type-solid-ellipse.btn-color-gradient,
+.gradient-text .warm-flame {
+    background: linear-gradient( to left, #ff9a9e 0%, #fad0c4 100% );
+    background-color: #fad0c4;
+}
+
+.night-fade,
+.btn.btn-type-solid-rect.btn-color-gradient-palette.night-fade,
+.btn.btn-type-solid-round.btn-color-gradient-palette.night-fade,
+.btn.btn-type-solid-ellipse.btn-color-gradient-palette.night-fade,
+.scheme-night-fade .btn.btn-type-solid-rect.btn-color-gradient,
+.scheme-night-fade .btn.btn-type-solid-round.btn-color-gradient,
+.scheme-night-fade .btn.btn-type-solid-ellipse.btn-color-gradient,
+.gradient-text .night-fade {
+    background: linear-gradient( to left, #a18cd1 0%, #fbc2eb 100% );
+    background-color: #fbc2eb;;
+}
+
+.sunny-morning,
+.btn.btn-type-solid-rect.btn-color-gradient-palette.sunny-morning,
+.btn.btn-type-solid-round.btn-color-gradient-palette.sunny-morning,
+.btn.btn-type-solid-ellipse.btn-color-gradient-palette.sunny-morning,
+.scheme-sunny-morning .btn.btn-type-solid-rect.btn-color-gradient,
+.scheme-sunny-morning .btn.btn-type-solid-round.btn-color-gradient,
+.scheme-sunny-morning .btn.btn-type-solid-ellipse.btn-color-gradient,
+.gradient-text .sunny-morning {
+    background: linear-gradient( to left, #f6d365 0%, #fda085 100% );
+    background-color: #fda085;
+}
+
+.tempting-azure,
+.btn.btn-type-solid-rect.btn-color-gradient-palette.tempting-azure,
+.btn.btn-type-solid-round.btn-color-gradient-palette.tempting-azure,
+.btn.btn-type-solid-ellipse.btn-color-gradient-palette.tempting-azure,
+.scheme-tempting-azure .btn.btn-type-solid-rect.btn-color-gradient,
+.scheme-tempting-azure .btn.btn-type-solid-round.btn-color-gradient,
+.scheme-tempting-azure .btn.btn-type-solid-ellipse.btn-color-gradient,
+.gradient-text .tempting-azure {
+    background: linear-gradient( to left, #84fab0 0%, #8fd3f4 100% );
+    background-color: #8fd3f4;
+}
+
+.young-passion,
+.btn.btn-type-solid-rect.btn-color-gradient-palette.young-passion,
+.btn.btn-type-solid-round.btn-color-gradient-palette.young-passion,
+.btn.btn-type-solid-ellipse.btn-color-gradient-palette.young-passion,
+.scheme-young-passion .btn.btn-type-solid-rect.btn-color-gradient,
+.scheme-young-passion .btn.btn-type-solid-round.btn-color-gradient,
+.scheme-young-passion .btn.btn-type-solid-ellipse.btn-color-gradient,
+.gradient-text .young-passion {
+    background: linear-gradient( to left, #ff8177 0%, #b12a5b 100% );
+    background-color: #b12a5b;
+}
+
+.deep-blue,
+.btn.btn-type-solid-rect.btn-color-gradient-palette.deep-blue,
+.btn.btn-type-solid-round.btn-color-gradient-palette.deep-blue,
+.btn.btn-type-solid-ellipse.btn-color-gradient-palette.deep-blue,
+.scheme-deep-blue .btn.btn-type-solid-rect.btn-color-gradient,
+.scheme-deep-blue .btn.btn-type-solid-round.btn-color-gradient,
+.scheme-deep-blue .btn.btn-type-solid-ellipse.btn-color-gradient,
+.gradient-text .deep-blue {
+    background: linear-gradient( to left, #e0c3fc 0%, #8ec5fc 100% );
+    background-color: #8ec5fc;
+}
+
+.malibu-beach,
+.btn.btn-type-solid-rect.btn-color-gradient-palette.malibu-beach,
+.btn.btn-type-solid-round.btn-color-gradient-palette.malibu-beach,
+.btn.btn-type-solid-ellipse.btn-color-gradient-palette.malibu-beach,
+.scheme-malibu-beach .btn.btn-type-solid-rect.btn-color-gradient,
+.scheme-malibu-beach .btn.btn-type-solid-round.btn-color-gradient,
+.scheme-malibu-beach .btn.btn-type-solid-ellipse.btn-color-gradient,
+.gradient-text .malibu-beach {
+    background: linear-gradient( to left, #4facfe 0%, #00f2fe 100% );
+    background-color: #00f2fe;
+}
+
+.plum-plate,
+.btn.btn-type-solid-rect.btn-color-gradient-palette.plum-plate,
+.btn.btn-type-solid-round.btn-color-gradient-palette.plum-plate,
+.btn.btn-type-solid-ellipse.btn-color-gradient-palette.plum-plate,
+.scheme-plum-plate .btn.btn-type-solid-rect.btn-color-gradient,
+.scheme-plum-plate .btn.btn-type-solid-round.btn-color-gradient,
+.scheme-plum-plate .btn.btn-type-solid-ellipse.btn-color-gradient,
+.gradient-text .plum-plate {
+    background: linear-gradient( to left, #667eea 0%, #764ba2 100% );
+    background-color: #764ba2;
+}
+
+.evarlasting-sky,
+.btn.btn-type-solid-rect.btn-color-gradient-palette.evarlasting-sky,
+.btn.btn-type-solid-round.btn-color-gradient-palette.evarlasting-sky,
+.btn.btn-type-solid-ellipse.btn-color-gradient-palette.evarlasting-sky,
+.scheme-evarlasting-sky .btn.btn-type-solid-rect.btn-color-gradient,
+.scheme-evarlasting-sky .btn.btn-type-solid-round.btn-color-gradient,
+.scheme-evarlasting-sky .btn.btn-type-solid-ellipse.btn-color-gradient,
+.gradient-text .evarlasting-sky {
+    background: linear-gradient( to left, #f4f0ed 0%, #e2d1c3 100% );
+    background-color: #e2d1c3;
+}
+
+.aqua-splash,
+.btn.btn-type-solid-rect.btn-color-gradient-palette.aqua-splash,
+.btn.btn-type-solid-round.btn-color-gradient-palette.aqua-splash,
+.btn.btn-type-solid-ellipse.btn-color-gradient-palette.aqua-splash,
+.scheme-aqua-splash .btn.btn-type-solid-rect.btn-color-gradient,
+.scheme-aqua-splash .btn.btn-type-solid-round.btn-color-gradient,
+.scheme-aqua-splash .btn.btn-type-solid-ellipse.btn-color-gradient,
+.gradient-text .aqua-splash {
+    background: linear-gradient( to left, #80d0c7 0%, #13547a 100% );
+    background-color: #13547a;
+}
+
+.desert-hump,
+.btn.btn-type-solid-rect.btn-color-gradient-palette.desert-hump,
+.btn.btn-type-solid-round.btn-color-gradient-palette.desert-hump,
+.btn.btn-type-solid-ellipse.btn-color-gradient-palette.desert-hump,
+.scheme-desert-hump .btn.btn-type-solid-rect.btn-color-gradient,
+.scheme-desert-hump .btn.btn-type-solid-round.btn-color-gradient,
+.scheme-desert-hump .btn.btn-type-solid-ellipse.btn-color-gradient,
+.gradient-text .desert-hump {
+    background: linear-gradient( to left, #c79081 0%, #dfa579 100% );
+    background-color: #dfa579;
+}
+
+.night-sky,
+.btn.btn-type-solid-rect.btn-color-gradient-palette.night-sky,
+.btn.btn-type-solid-round.btn-color-gradient-palette.night-sky,
+.btn.btn-type-solid-ellipse.btn-color-gradient-palette.night-sky,
+.scheme-night-sky .btn.btn-type-solid-rect.btn-color-gradient,
+.scheme-night-sky .btn.btn-type-solid-round.btn-color-gradient,
+.scheme-night-sky .btn.btn-type-solid-ellipse.btn-color-gradient,
+.gradient-text .night-sky {
+    background: linear-gradient( to left, #1e3c72 0%, #2a5298 100% );
+    background-color: #2a5298;
+}
+
+.passionate-red,
+.btn.btn-type-solid-rect.btn-color-gradient-palette.passionate-red,
+.btn.btn-type-solid-round.btn-color-gradient-palette.passionate-red,
+.btn.btn-type-solid-ellipse.btn-color-gradient-palette.passionate-red,
+.scheme-passionate-red .btn.btn-type-solid-rect.btn-color-gradient,
+.scheme-passionate-red .btn.btn-type-solid-round.btn-color-gradient,
+.scheme-passionate-red .btn.btn-type-solid-ellipse.btn-color-gradient,
+.gradient-text .passionate-red {
+    background: linear-gradient( to left, #ff758c 0%, #ff7eb3 100% );
+    background-color: #ff7eb3;
+}
+
+.heavy-rain,
+.btn.btn-type-solid-rect.btn-color-gradient-palette.heavy-rain,
+.btn.btn-type-solid-round.btn-color-gradient-palette.heavy-rain,
+.btn.btn-type-solid-ellipse.btn-color-gradient-palette.heavy-rain,
+.scheme-heavy-rain .btn.btn-type-solid-rect.btn-color-gradient,
+.scheme-heavy-rain .btn.btn-type-solid-round.btn-color-gradient,
+.scheme-heavy-rain .btn.btn-type-solid-ellipse.btn-color-gradient,
+.gradient-text .heavy-rain {
+    background: linear-gradient( to left, #cfd9df 0%, #e2ebf0 100% );
+    background-color: #e2ebf0;
+}
+
+.healthy-water,
+.btn.btn-type-solid-rect.btn-color-gradient-palette.healthy-water,
+.btn.btn-type-solid-round.btn-color-gradient-palette.healthy-water,
+.btn.btn-type-solid-ellipse.btn-color-gradient-palette.healthy-water,
+.scheme-healthy-water .btn.btn-type-solid-rect.btn-color-gradient,
+.scheme-healthy-water .btn.btn-type-solid-round.btn-color-gradient,
+.scheme-healthy-water .btn.btn-type-solid-ellipse.btn-color-gradient,
+.gradient-text .healthy-water {
+    background: linear-gradient( to left, #96deda 0%, #50c9c3 100% );
+    background-color: #50c9c3;
+}
+
+.lily-meadow,
+.btn.btn-type-solid-rect.btn-color-gradient-palette.lily-meadow,
+.btn.btn-type-solid-round.btn-color-gradient-palette.lily-meadow,
+.btn.btn-type-solid-ellipse.btn-color-gradient-palette.lily-meadow,
+.scheme-lily-meadow .btn.btn-type-solid-rect.btn-color-gradient,
+.scheme-lily-meadow .btn.btn-type-solid-round.btn-color-gradient,
+.scheme-lily-meadow .btn.btn-type-solid-ellipse.btn-color-gradient,
+.gradient-text .lily-meadow {
+    background: linear-gradient( to left, #65379B 0%, #6457C6 100% );
+    background-color: #6457C6;
+}
+
+.happy-memories,
+.btn.btn-type-solid-rect.btn-color-gradient-palette.happy-memories,
+.btn.btn-type-solid-round.btn-color-gradient-palette.happy-memories,
+.btn.btn-type-solid-ellipse.btn-color-gradient-palette.happy-memories,
+.scheme-happy-memories .btn.btn-type-solid-rect.btn-color-gradient,
+.scheme-happy-memories .btn.btn-type-solid-round.btn-color-gradient,
+.scheme-happy-memories .btn.btn-type-solid-ellipse.btn-color-gradient,
+.gradient-text .happy-memories {
+    background: linear-gradient( to left, #ff5858 0%, #f09819 100% );
+    background-color: #f09819;
+}
+
+.mountain-rock,
+.btn.btn-type-solid-rect.btn-color-gradient-palette.mountain-rock,
+.btn.btn-type-solid-round.btn-color-gradient-palette.mountain-rock,
+.btn.btn-type-solid-ellipse.btn-color-gradient-palette.mountain-rock,
+.scheme-mountain-rock .btn.btn-type-solid-rect.btn-color-gradient,
+.scheme-mountain-rock .btn.btn-type-solid-round.btn-color-gradient,
+.scheme-mountain-rock .btn.btn-type-solid-ellipse.btn-color-gradient,
+.gradient-text .mountain-rock {
+    background: linear-gradient( to left, #868f96 0%, #596164 100% );
+    background-color: #596164;
+}
+
+.sea-shore,
+.btn.btn-type-solid-rect.btn-color-gradient-palette.sea-shore,
+.btn.btn-type-solid-round.btn-color-gradient-palette.sea-shore,
+.btn.btn-type-solid-ellipse.btn-color-gradient-palette.sea-shore,
+.scheme-sea-shore .btn.btn-type-solid-rect.btn-color-gradient,
+.scheme-sea-shore .btn.btn-type-solid-round.btn-color-gradient,
+.scheme-sea-shore .btn.btn-type-solid-ellipse.btn-color-gradient,
+.gradient-text .sea-shore {
+    background: linear-gradient( to left, #209cff 0%, #68e0cf 100% );
+    background-color: #68e0cf;
+}
+
+.cheerful-caramel,
+.btn.btn-type-solid-rect.btn-color-gradient-palette.cheerful-caramel,
+.btn.btn-type-solid-round.btn-color-gradient-palette.cheerful-caramel,
+.btn.btn-type-solid-ellipse.btn-color-gradient-palette.cheerful-caramel,
+.scheme-cheerful-caramel .btn.btn-type-solid-rect.btn-color-gradient,
+.scheme-cheerful-caramel .btn.btn-type-solid-round.btn-color-gradient,
+.scheme-cheerful-caramel .btn.btn-type-solid-ellipse.btn-color-gradient,
+.gradient-text .cheerful-caramel {
+    background: linear-gradient( to left, #e6b980 0%, #eacda3 100% );
+    background-color: #eacda3;
+}
+
+.spiky-naga,
+.btn.btn-type-solid-rect.btn-color-gradient-palette.spiky-naga,
+.btn.btn-type-solid-round.btn-color-gradient-palette.spiky-naga,
+.btn.btn-type-solid-ellipse.btn-color-gradient-palette.spiky-naga,
+.scheme-spiky-naga .btn.btn-type-solid-rect.btn-color-gradient,
+.scheme-spiky-naga .btn.btn-type-solid-round.btn-color-gradient,
+.scheme-spiky-naga .btn.btn-type-solid-ellipse.btn-color-gradient,
+.gradient-text .spiky-naga {
+    background: linear-gradient( to left, #505285 0%, #b5aee4 100% );
+    background-color: #b5aee4;
+}
+
+.love-kiss,
+.btn.btn-type-solid-rect.btn-color-gradient-palette.love-kiss,
+.btn.btn-type-solid-round.btn-color-gradient-palette.love-kiss,
+.btn.btn-type-solid-ellipse.btn-color-gradient-palette.love-kiss,
+.scheme-love-kiss .btn.btn-type-solid-rect.btn-color-gradient,
+.scheme-love-kiss .btn.btn-type-solid-round.btn-color-gradient,
+.scheme-love-kiss .btn.btn-type-solid-ellipse.btn-color-gradient,
+.gradient-text .love-kiss {
+    background: linear-gradient( to left, #ff0844 0%, #ffb199 100% );
+    background-color: #ffb199;
+}
+
+.lush,
+.btn.btn-type-solid-rect.btn-color-gradient-palette.lush,
+.btn.btn-type-solid-round.btn-color-gradient-palette.lush,
+.btn.btn-type-solid-ellipse.btn-color-gradient-palette.lush,
+.scheme-lush .btn.btn-type-solid-rect.btn-color-gradient,
+.scheme-lush .btn.btn-type-solid-round.btn-color-gradient,
+.scheme-lush .btn.btn-type-solid-ellipse.btn-color-gradient,
+.gradient-text .lush {
+    background: linear-gradient( to left, #56ab2f 0%, #a8e063 100% );
+    background-color: #a8e063;
+}
+
+.landing-aircraft,
+.btn.btn-type-solid-rect.btn-color-gradient-palette.landing-aircraft,
+.btn.btn-type-solid-round.btn-color-gradient-palette.landing-aircraft,
+.btn.btn-type-solid-ellipse.btn-color-gradient-palette.landing-aircraft,
+.scheme-landing-aircraft .btn.btn-type-solid-rect.btn-color-gradient,
+.scheme-landing-aircraft .btn.btn-type-solid-round.btn-color-gradient,
+.scheme-landing-aircraft .btn.btn-type-solid-ellipse.btn-color-gradient,
+.gradient-text .landing-aircraft {
+    background: linear-gradient( to left, #5D9FFF 0%, #6BBBFF 100% );
+    background-color: #6BBBFF;
+}
+
+.sand-strike,
+.btn.btn-type-solid-rect.btn-color-gradient-palette.sand-strike,
+.btn.btn-type-solid-round.btn-color-gradient-palette.sand-strike,
+.btn.btn-type-solid-ellipse.btn-color-gradient-palette.sand-strike,
+.scheme-sand-strike .btn.btn-type-solid-rect.btn-color-gradient,
+.scheme-sand-strike .btn.btn-type-solid-round.btn-color-gradient,
+.scheme-sand-strike .btn.btn-type-solid-ellipse.btn-color-gradient,
+.gradient-text .sand-strike {
+    background: linear-gradient( to left, #c1c161 0%, #d4d4b1 100% );
+    background-color: #d4d4b1;
+}
+
+.vicious-stance,
+.btn.btn-type-solid-rect.btn-color-gradient-palette.vicious-stance,
+.btn.btn-type-solid-round.btn-color-gradient-palette.vicious-stance,
+.btn.btn-type-solid-ellipse.btn-color-gradient-palette.vicious-stance,
+.scheme-vicious-stance .btn.btn-type-solid-rect.btn-color-gradient,
+.scheme-vicious-stance .btn.btn-type-solid-round.btn-color-gradient,
+.scheme-vicious-stance .btn.btn-type-solid-ellipse.btn-color-gradient,
+.gradient-text .vicious-stance {
+    background: linear-gradient( to left, #29323c 0%, #485563 100% );
+    background-color: #485563;
+}
+
+.smart-indigo,
+.btn.btn-type-solid-rect.btn-color-gradient-palette.smart-indigo,
+.btn.btn-type-solid-round.btn-color-gradient-palette.smart-indigo,
+.btn.btn-type-solid-ellipse.btn-color-gradient-palette.smart-indigo,
+.scheme-smart-indigo .btn.btn-type-solid-rect.btn-color-gradient,
+.scheme-smart-indigo .btn.btn-type-solid-round.btn-color-gradient,
+.scheme-smart-indigo .btn.btn-type-solid-ellipse.btn-color-gradient,
+.gradient-text .smart-indigo {
+    background: linear-gradient( to left, #b224ef 0%, #7579ff 100% );
+    background-color: #7579ff;
+}
+
+.big-mango,
+.btn.btn-type-solid-rect.btn-color-gradient-palette.big-mango,
+.btn.btn-type-solid-round.btn-color-gradient-palette.big-mango,
+.btn.btn-type-solid-ellipse.btn-color-gradient-palette.big-mango,
+.scheme-big-mango .btn.btn-type-solid-rect.btn-color-gradient,
+.scheme-big-mango .btn.btn-type-solid-round.btn-color-gradient,
+.scheme-big-mango .btn.btn-type-solid-ellipse.btn-color-gradient,
+.gradient-text .big-mango {
+    background: linear-gradient( to left, #c71d6f 0%, #d09693 100% );
+    background-color: #d09693;
+}
+
+.new-life,
+.btn.btn-type-solid-rect.btn-color-gradient-palette.new-life,
+.btn.btn-type-solid-round.btn-color-gradient-palette.new-life,
+.btn.btn-type-solid-ellipse.btn-color-gradient-palette.new-life,
+.scheme-new-life .btn.btn-type-solid-rect.btn-color-gradient,
+.scheme-new-life .btn.btn-type-solid-round.btn-color-gradient,
+.scheme-new-life .btn.btn-type-solid-ellipse.btn-color-gradient,
+.gradient-text .new-life {
+    background: linear-gradient( to left, #38f9d7 0%, #43e97b 100% );
+    background-color: #43e97b;
+}

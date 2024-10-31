@@ -1,0 +1,329 @@
+/*!
+ * Octagon Elements for Elementor Advance Button LESS v1.0
+ *
+ * 
+ * Copyright (c) octagon web studio
+ *
+ */
+
+/* ---------------------------------------------------------------------------
+ * Advance Button
+------------------------------------------------------------------------------ */
+
+/* General ------------------------------------------------------------------- */
+
+.btn {
+    color: #fff;
+    background: #100d0c;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    position: relative;
+    box-shadow: none;
+    outline: 0;
+}
+
+.btn:focus,
+.btn:hover {
+    color: #fff; 
+    text-decoration: none;
+    box-shadow: none;
+    outline: 0;
+}
+
+.btn.btn-type-outline-rect,
+.btn.btn-type-outline-round,
+.btn.btn-type-outline-ellipse,
+.btn.btn-type-no-bg,
+.btn.btn-type-line-tr,
+.btn.btn-type-line-tl,
+.btn.btn-type-line-br,
+.btn.btn-type-line-bl {
+    background: none;       
+    border: 1px solid;
+}
+
+.btn.btn-type-solid-rect,
+.btn.btn-type-outline-rect {
+    border-radius: 0;
+}
+
+.btn.btn-type-solid-round,
+.btn.btn-type-outline-round {
+    border-radius: 5px;
+}
+
+.btn.btn-type-solid-ellipse,
+.btn.btn-type-outline-ellipse {
+    border-radius: 50px;
+}
+
+.btn.btn-size-mini {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 46px;
+    padding: 0 30px;
+    height: 46px;
+}
+
+.btn.btn-size-small {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 55px;
+    padding: 0 44px;
+    height: 55px;
+}
+
+.btn.btn-size-medium {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 60px;
+    padding: 0 70px;
+    height: 60px;
+}
+
+.btn.btn-size-large {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 63px;
+    padding: 0 100px;
+    height: 65px;
+}
+
+.btn.btn-size-full {    
+    font-weight: 600;
+    line-height: 55px;
+    width: 100%;
+    height: 65px;
+}
+
+.btn.btn-type-line-tr,
+.btn.btn-type-line-tl,
+.btn.btn-type-line-br,
+.btn.btn-type-line-bl {
+    color: #100d0c;
+    background: none;    
+    border: 1px solid;
+    border-radius: 0;
+}
+
+.btn.btn-type-line-tr:before,
+.btn.btn-type-line-tl:before,
+.btn.btn-type-line-br:before,
+.btn.btn-type-line-bl:before,
+.btn.btn-type-line-tr:after,
+.btn.btn-type-line-tl:after,
+.btn.btn-type-line-br:after,
+.btn.btn-type-line-bl:after {
+    background: #100d0c;
+    content: '';
+    display: block;
+    position: absolute;
+}
+
+.btn.btn-type-line-tr:before,
+.btn.btn-type-line-tl:before,
+.btn.btn-type-line-br:before,
+.btn.btn-type-line-bl:before {
+    width: 1px;
+    height: 10px;    
+}
+
+.btn.btn-type-line-tr:after,
+.btn.btn-type-line-tl:after,
+.btn.btn-type-line-br:after,
+.btn.btn-type-line-bl:after {
+    width: 10px;
+    height: 1px;
+}
+
+.btn.btn-type-line-tr {
+    border-left: 0;
+    border-bottom: 0;
+}
+
+.btn.btn-type-line-tr:before {
+    top: 0;
+    left: 0;
+}
+
+.btn.btn-type-line-tr:after {
+    bottom: 0;
+    right: 0;
+}
+
+.btn.btn-type-line-tl {
+    border-right: 0;
+    border-bottom: 0;
+}
+
+.btn.btn-type-line-tl:before {
+    top: 0;
+    right: 0;
+}
+
+.btn.btn-type-line-tl:after {
+    bottom: 0;
+    left: 0;
+}
+
+.btn.btn-type-line-br {
+    border-left: 0;
+    border-top: 0;
+}
+
+.btn.btn-type-line-br:before {
+    bottom: 0;
+    left: 0;
+}
+
+.btn.btn-type-line-br:after {
+    top: 0;
+    right: 0;
+}
+
+.btn.btn-type-line-bl {
+    border-right: 0;
+    border-top: 0;
+}
+
+.btn.btn-type-line-bl:before {
+    bottom: 0;
+    right: 0;
+}
+
+.btn.btn-type-line-bl:after {
+    top: 0;
+    left: 0;
+}
+
+.btn.btn-type-line-bl:after {
+    top: 0;
+    left: 0;
+}
+
+.btn.btn-type-no-bg {
+    color: #100d0c;
+    background: none;
+    padding: 0;
+    height: auto;
+    border: 0;
+}
+
+.btn.btn-type-simple,
+.btn.btn-type-half-line,
+.btn.btn-type-line-collapse {
+    color: #100d0c;
+    background: none;
+    line-height: 1.8;
+    padding: 0 0 3px 0;
+    height: auto;
+    border-bottom: 1px solid;
+    border-radius: 0;
+}
+
+.btn.btn-type-half-line,
+.btn.btn-type-line-collapse {
+    border: 0;
+}
+
+.btn.btn-type-half-line:after,
+.btn.btn-type-line-collapse:after {
+    content: '';
+    background: #100d0c;
+    height: 1px;
+    width: 30px;
+    border: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.btn.btn-type-line-collapse:after {
+    height: 6px;
+    width: 100%;
+    opacity: 0.4;
+    bottom: 7px;
+}
+
+.btn.btn-size-large.btn-type-line-collapse:after {
+    bottom: 10px;
+}
+
+.btn.btn-type-outline-rect.btn-color-black,
+.btn.btn-type-outline-round.btn-color-black,
+.btn.btn-type-outline-ellipse.btn-color-black {
+    color: #100d0c;
+    background: none;
+    border: 1px solid;
+}
+
+.btn.btn-type-outline-rect.btn-color-white,
+.btn.btn-type-outline-round.btn-color-white,
+.btn.btn-type-outline-ellipse.btn-color-white {
+    color: #fff;
+    background: none;
+    border: 1px solid;
+}
+
+.btn.btn-type-simple.btn-color-white {
+    color: #fff;
+}
+
+.btn.btn-type-solid-rect.btn-color-black,
+.btn.btn-type-solid-round.btn-color-black,
+.btn.btn-type-solid-ellipse.btn-color-black {
+    color: #fff;
+    background: #100d0c;
+}
+
+.btn.btn-type-solid-rect.btn-color-white,
+.btn.btn-type-solid-round.btn-color-white,
+.btn.btn-type-solid-ellipse.btn-color-white {
+    color: #100d0c;
+    background: #fff;
+}
+
+.btn.btn-type-solid-rect.btn-color-gradient,
+.btn.btn-type-solid-round.btn-color-gradient,
+.btn.btn-type-solid-ellipse.btn-color-gradient {
+    color: #fff;
+    border: 0;
+}
+
+.btn.btn-color-gradient:before,
+.btn.btn-color-gradient:after {
+    content: none;
+}
+
+.btn.btn-color-gradient:hover,
+.btn.btn-color-gradient-palette:hover {
+    color: #fff;
+}
+
+.octagon-button-text {
+    display: inline-block;
+}
+
+.btn .octagon-align-icon-left i {
+    padding-right: 10px;
+}
+
+.btn .octagon-align-icon-right i {
+    float: right;
+    padding-left: 10px;
+}
+
+.btn.only-icon {
+    font-size: 18px;
+    padding: 0;
+    line-height: 35px;
+    width: 35px;
+    height: 35px;
+}
+
+.btn.only-icon span {
+    padding: 0;
+}

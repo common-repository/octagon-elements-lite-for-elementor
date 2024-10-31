@@ -1,0 +1,268 @@
+/*!
+ * General CSS v1.4
+ *
+ * 
+ * Copyright (c) 2020 octagon web studio
+ *
+ */
+
+/*----------------------------------------------------------------------------
+    TABLE OF CONTENTS:
+------------------------------------------------------------------------------
+    # Reset
+    # Builder Reset
+    # Carousel
+============================================================================== */
+
+
+
+
+
+/* ---------------------------------------------------------------------------
+ * Reset
+------------------------------------------------------------------------------ */
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+code,
+em,
+img,
+small,
+strong,
+sub,
+sup,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+footer,
+header,
+nav,
+section,
+time,
+audio,
+video {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background: transparent;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+figure,
+footer,
+header,
+nav,
+section {
+    display: block;
+}
+
+html {
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+img,
+object {
+    max-width: 100%;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th {
+    font-weight: bold;
+    vertical-align: bottom;
+}
+
+td {
+    font-weight: normal;
+    vertical-align: top;
+}
+
+input,
+select {
+    vertical-align: middle;
+}
+
+input[type='radio'] {
+    vertical-align: text-bottom;
+}
+
+input[type='checkbox'] {
+    vertical-align: bottom;
+}
+
+strong {
+    font-weight: bold;
+}
+
+label,
+input[type='file'] {
+    cursor: pointer;
+}
+
+input,
+select,
+textarea {
+    border-radius: 0;
+    margin: 0;
+}
+
+button,
+input[type='button'],
+input[type='submit'] {
+    background: #100d0c;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    margin: 0;
+    appearance: none;
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+
+/* ---------------------------------------------------------------------------
+ * Builder Reset
+------------------------------------------------------------------------------ */
+
+.elementor-widget-wrap .elementor-widget .octagon-elements a {
+    text-decoration: none;
+}
+
+
+/* ---------------------------------------------------------------------------
+ * Carousel
+------------------------------------------------------------------------------ */
+
+.octagon-elements .swiper-wrapper {
+    margin: 0 0 25px 0;
+    padding: 25px 0;
+}
+
+.octagon-elements .swiper-button-next,
+.octagon-elements .swiper-container-rtl .swiper-button-prev {
+    background: none;
+}
+
+.octagon-elements .swiper-button-prev,
+.octagon-elements .swiper-container-rtl .swiper-button-next {
+    background: none;
+}
+
+.octagon-elements .swiper-button-next:after,
+.octagon-elements .swiper-container-rtl .swiper-button-prev:after,
+.octagon-elements .swiper-button-prev:after,
+.octagon-elements .swiper-container-rtl .swiper-button-next:after {
+    font-family: "octagon-basic";
+    font-size: 28px;
+    content: "\62";
+}
+
+.octagon-elements .swiper-button-prev:after,
+.octagon-elements .swiper-container-rtl .swiper-button-next:after {
+    content: "\63";
+}
+
+
+/* ---------------------------------------------------------------------------
+ * Image Compare
+------------------------------------------------------------------------------ */
+
+.icv__img-b {
+    height: 100% !important;
+    max-width: none !important;
+}
+
+
+/* ---------------------------------------------------------------------------
+ * Pagination
+------------------------------------------------------------------------------ */
+
+.pagination {
+    display: block;
+    text-align: center;
+}
+
+.pagination .page-numbers li {
+    display: inline-block;
+    list-style: none;
+}
+
+.pagination ul li *,
+.pagination ul.page-numbers li * {
+    font-size: 14px; 
+    font-weight: 600; 
+    color: #100d0c; 
+    line-height: 1; 
+    padding: 12px 16px; 
+    display: inline-block; 
+    border: 1px solid; 
+}
+
+.pagination ul.page-numbers li .page-numbers.current {
+    background: none; 
+}
